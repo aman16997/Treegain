@@ -7,72 +7,177 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+    <!-- Hero Section Start -->
+    <section id="hero-section">
+      <!-- Navbar Start -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark navbar-transparent"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="Treegain Technologies" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link nav-link-1" href="#">Services</a>
+              <a class="nav-link" href="#">Technologies</a>
+              <a class="nav-link" href="#">Careers</a>
+              <a class="nav-link" href="#">Resources</a>
+              <a class="nav-link" href="#">About</a>
+              <button
+                class="orange-button"
+                type="button"
+                data-target="#contactUs"
+                data-toggle="modal"
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
+                Contact Us
+              </button>
+            </div>
+          </div>
         </div>
       </nav>
-    </div>
-    <form class="container">
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
+      <!-- Navbar End -->
+      <div class="hero-content">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12">
+                <p class="JustWhite">We design Web Projects</p>
+                <h1 class="JustWhite">Your Trusted Development Partner</h1>
+                <p class="JustWhite">
+                  Treegain delivers award-winning design and development
+                  services to some of the biggest companies in the world.
+                </p>
+
+                <button class="orange-button mt-4 mb-4">Let's Discuss</button>
+              </div>
+              <div
+                class="col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12 d-none d-md-block"
+              >
+                <img
+                  src="./images/home-page-hero.svg"
+                  alt="Treegain Technologies Development"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Services Start -->
+    <section id="service-section">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <h2>
+              Our
+              <u>
+                Services
+              </u>
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
+              <div class="card border-0 py-5">
+                <div class="card-body px-5">
+                  <h3 class="card-title mb-3">Web Developement</h3>
+                  <p class="card-text mb-3">
+                    We provide both back-end and front-end development. Our
+                    teams build web applications powered by bulletproof code,
+                    with stunning interfaces based on responsive web design.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
+              <div class="card border-0 py-5">
+                <div class="card-body px-5">
+                  <h3 class="card-title mb-3">Mobile Developement</h3>
+                  <p class="card-text mb-3">
+                    We provide both back-end and front-end development. Our
+                    teams build web applications powered by bulletproof code,
+                    with stunning interfaces based on responsive web design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2ndrow -->
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
+              <div class="card border-0 py-5">
+                <div class="card-body px-5">
+                  <h3 class="card-title mb-3">Product Design</h3>
+                  <p class="card-text mb-3">
+                    We provide both back-end and front-end development. Our
+                    teams build web applications powered by bulletproof code,
+                    with stunning interfaces based on responsive web design.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
+              <div class="card border-0 py-5">
+                <div class="card-body px-5">
+                  <h3 class="card-title mb-3">
+                    MVP
+                    <small
+                      style="
+                        font-size: 19px;
+                        font-weight: 100;
+                        letter-spacing: normal;
+                      "
+                      >Minimum Viable Project(Early access)</small
+                    >
+                  </h3>
+                  <p class="card-text mb-3">
+                    We provide both back-end and front-end development. Our
+                    teams build web applications powered by bulletproof code,
+                    with stunning interfaces based on responsive web design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row End -->
+        </div>
+        <img
+          src="./images/service-small-circles.png"
+          alt="Technologies"
+          class="float-right background-circles"
         />
-        <small id="emailHelp" class="form-text text-muted"
-          >We'll never share your email with anyone else.</small
-        >
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-        />
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </section>
+    <!-- Services End -->
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

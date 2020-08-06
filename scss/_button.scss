@@ -1,0 +1,48 @@
+.normal-button {
+  font-family: $Circular_Regular;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+
+  color: $JustWhite;
+  background-color: $HappyBlue;
+
+  display: inline-block;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  margin: 0;
+
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease-in;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.normal-button:hover,
+.normal-button:focus {
+  background: $HappyBlue-1;
+  color: $JustWhite;
+  text-decoration: none;
+}
+
+.normal-button:active {
+  transform: scale(0.99);
+}
+
+.orange-button {
+  @extend .normal-button;
+  background-color: $OurOrange;
+}
+.orange-button:hover,
+.orange-button:focus {
+  background: $OurOrange-1;
+  color: $JustWhite;
+  text-decoration: none;
+}
+
+.orange-button:active {
+  transform: scale(0.99);
+}

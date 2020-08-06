@@ -1,0 +1,25 @@
+// @import "typography";
+
+//Colors
+$JustWhite: #ffffff;
+$DarkBlack: #0d0d0d;
+$OurOrange: #f26b1d;
+$OurOrange-1: #da5000;
+$ColdBlue: #26658c;
+$DullBlue: #2976a6;
+$BlackBlue: #021826;
+$HappyBlue: #6c63ff;
+$HappyBlue-1: #3027e6;
+
+.OurOrange {
+  color: $OurOrange;
+}
+
+.JustWhite {
+  color: $JustWhite;
+}
+
+u {
+  //   text-decoration-color: $OurOrange;
+  //   text-decoration-width: 30px;
+}

@@ -1,7 +1,106 @@
+////// Circular Font
+@font-face {
+  font-family: "Circular-Regular";
+  src: url(../fonts/circular/CircularStd-Book.woff);
+}
+
+@font-face {
+  font-family: "Circular-Medium";
+  src: url(../fonts/circular/CircularStd-Medium.woff);
+}
+@font-face {
+  font-family: "Circular-Bold";
+  src: url(../fonts/circular/CircularStd-Bold.woff);
+}
+@font-face {
+  font-family: "Circular-Black";
+  src: url(../fonts/circular/CircularStd-Black.woff);
+}
+
+////// Helvetica Font
+@font-face {
+  font-family: "Helvetic-Regular";
+  src: url(../fonts/HelveticaNeue/HelveticaNeue.woff);
+}
+
+@font-face {
+  font-family: "Helvetic-Medium";
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Medium.woff);
+}
+
+@font-face {
+  font-family: "Helvetic-Bold";
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Bold.woff);
+}
+@font-face {
+  font-family: "Helvetic-Light";
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Light.woff);
+}
+@font-face {
+  font-family: "Helvetic-UltraLight";
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-UltraLight.woff);
+}
+@font-face {
+  font-family: "Helvetic-Thin";
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Thin.woff);
+}
+
+// Font Variable
+$Circular_Regular: "Circular-Regular";
+$Circular_Medium: "Circular-Medium";
+$Circular_Bold: "Circular-Bold";
+$Circular_Black: "Circular-Black";
+
+$Helvetic_Regular: "Helvetic-Regular";
+$Helvetic_Medium: "Helvetic-Medium";
+$Helvetic_Bold: "Helvetic-Bold";
+$Helvetic_Light: "Helvetic-Light";
+$Helvetic_UltraLight: "Helvetic-UltraLight";
+$Helvetic_Thin: "Helvetic-Thin";
+
+h1 {
+  font-family: $Circular_Bold;
+  font-size: 3.75rem;
+  letter-spacing: -0.2rem;
+}
+
+h2 {
+  font-family: $Circular_Bold;
+  font-size: 3rem;
+  letter-spacing: -0.1rem;
+}
+
+h3 {
+  font-family: $Circular_Bold;
+  font-size: 2.125rem;
+  letter-spacing: -0.1rem;
+}
+
 h4 {
-  font-size: 4000px;
+  font-family: $Circular_Medium;
+  font-size: 1.75rem;
+  letter-spacing: -0.1rem;
+}
+
+h5 {
+  font-family: $Circular_Medium;
+  font-size: 1.5rem;
+  letter-spacing: -0.1rem;
+}
+
+h6 {
+  font-family: $Circular_Medium;
+  font-size: 1.25rem;
+  letter-spacing: -0.1rem;
+}
+
+p {
+  font-family: $Helvetic_Regular;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 body {
-  background-color: green;
+  font-family: $Helvetic_Regular;
+  font-size: 1rem;
 }

@@ -1,17 +1,32 @@
-$theme-colors: (
-  "primary": red,
-  "danger": #ff4136,
-);
-$primary-color: #1d1d1d;
-$secondary-color: #ffffff;
-$third-color: #39513c;
+@import "../node_modules/bootstrap/scss/bootstrap"; //Bootstrap Import
 
-// .custom-navbar {
-//   background-color: transparent;
-// }
+@import "variable"; //Colors
+@import "typography"; //Fonts & Typeface
+@import "button"; //For Fonts
+@import "navbar"; // For Navbar
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+#hero-section {
+  width: 100vw;
+  height: 90vh;
+  background-color: $HappyBlue;
 
-body {
-  background-color: $secondary-color;
+  .hero-content {
+    padding-top: 6%;
+    padding-bottom: 100px;
+    vertical-align: middle;
+  }
+
+  .semi-circle {
+    content: "";
+    display: block;
+    width: 10000px;
+    background-color: rgba($HappyBlue, $alpha: 0.1);
+    border-radius: 50%;
+    position: relative;
+  }
+}
+
+#service-section {
+  background-color: #f7f7f7;
+  padding-top: 2%;
 }
