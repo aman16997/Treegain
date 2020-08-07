@@ -46,3 +46,21 @@
 .orange-button:active {
   transform: scale(0.99);
 }
+
+.outline-button {
+  @extend .normal-button;
+  background-color: $JustWhite;
+  border: 2px solid $DarkBlack;
+  color: $DarkBlack;
+}
+.outline-button:hover,
+.outline-button:focus {
+  background: $OurOrange-1;
+  color: $JustWhite;
+  text-decoration: none;
+  border-color: $OurOrange-1;
+}
+
+.outline-button:active {
+  transform: scale(1);
+}

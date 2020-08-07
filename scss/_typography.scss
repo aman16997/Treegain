@@ -71,9 +71,9 @@ h2 {
 }
 
 h3 {
-  font-family: $Circular_Bold;
+  font-family: $Circular_Medium;
   font-size: 2.125rem;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0rem;
 }
 
 h4 {
@@ -103,4 +103,14 @@ p {
 body {
   font-family: $Helvetic_Regular;
   font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: $DarkBlack;
+}
+
+a:hover {
+  text-decoration: none;
+  // color: $OurOrange;
 }

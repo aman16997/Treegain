@@ -11,15 +11,62 @@ $BlackBlue: #021826;
 $HappyBlue: #6c63ff;
 $HappyBlue-1: #3027e6;
 
-.OurOrange {
-  color: $OurOrange;
-}
-
 .JustWhite {
   color: $JustWhite;
+  &--background {
+    background-color: $JustWhite;
+  }
+}
+.DarkBlack {
+  color: $JustWhite;
+  &--background {
+    background-color: $DarkBlack;
+  }
+}
+.OurOrange {
+  color: $OurOrange;
+  &--background {
+    background-color: $OurOrange;
+  }
+}
+.ColdBlue {
+  color: $ColdBlue;
+  &--background {
+    background-color: $ColdBlue;
+  }
+}
+.DullBlue {
+  color: $DullBlue;
+  &--background {
+    background-color: $DullBlue;
+  }
+}
+.BlackBlue {
+  color: $BlackBlue;
+  &--background {
+    background-color: $BlackBlue;
+  }
+}
+.HappyBlue {
+  color: $HappyBlue;
+  &--background {
+    background-color: $HappyBlue;
+  }
+}
+.HappyBlue-1 {
+  color: $HappyBlue-1;
+  &--background {
+    background-color: $HappyBlue-1;
+  }
+}
+.OurOrange-1 {
+  color: $OurOrange-1;
+  &--background {
+    background-color: $OurOrange-1;
+  }
 }
 
 u {
-  //   text-decoration-color: $OurOrange;
-  //   text-decoration-width: 30px;
+  text-decoration-color: $OurOrange;
+  //   text-decoration-style: 30px;
 }
