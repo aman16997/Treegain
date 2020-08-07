@@ -79,39 +79,3 @@
   width: 30px;
   background-color: $OurOrange;
 }
-
-/*========================================
-  ============== CTA Section ==============
-  ========================================*/
-
-#cta {
-  padding-top: 4%;
-
-  .container {
-    background-color: $HappyBlue;
-    border-radius: 4px;
-    height: 285px;
-  }
-
-  .lady-cta {
-    z-index: 99;
-    left: 100px;
-  }
-}
-
-#footer-section {
-  padding-top: 8%;
-
-  a {
-    margin-top: 40px;
-  }
-
-  .container-fluid {
-    margin-top: 4%;
-    height: 80px;
-    background-color: #f8f8f8;
-    .container {
-      padding-top: 30px;
-    }
-  }
-}

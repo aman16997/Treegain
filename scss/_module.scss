@@ -1,3 +1,43 @@
 .card:hover {
   background-color: rgba($JustWhite, $alpha: 10);
 }
+
+/*========================================
+  ============== CTA Section ==============
+  ========================================*/
+
+#cta {
+  padding-top: 4%;
+
+  .container {
+    background-color: $HappyBlue;
+    border-radius: 10px;
+    height: 285px;
+    padding-top: 2%;
+  }
+
+  .lady-cta {
+    z-index: 99;
+    left: 100px;
+  }
+}
+
+/*========================================
+  ============== Footer Section ==============
+  ========================================*/
+#footer-section {
+  padding-top: 8%;
+
+  a {
+    margin-top: 40px;
+  }
+
+  .container-fluid {
+    margin-top: 4%;
+    height: 80px;
+    background-color: #f8f8f8;
+    .container {
+      padding-top: 30px;
+    }
+  }
+}
