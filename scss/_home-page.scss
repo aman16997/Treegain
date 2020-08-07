@@ -1,0 +1,117 @@
+/*========================================
+============== Hero Section ==============
+========================================*/
+
+#hero-section {
+  width: 100vw;
+  height: 90vh;
+  // background-color: $ColdBlue;
+
+  .hero-content {
+    padding-top: 6%;
+    padding-bottom: 100px;
+    vertical-align: middle;
+  }
+
+  .semi-circle {
+    content: "";
+    display: block;
+    width: 10000px;
+    background-color: rgba($HappyBlue, $alpha: 0.1);
+    border-radius: 50%;
+    position: relative;
+  }
+}
+
+/*========================================
+  ============ Service Section =============
+  ========================================*/
+
+#service-section {
+  background-color: #f7f7f7;
+  padding-top: 2%;
+
+  // .block-rectangle {
+  //   content: "";
+  //   display: block;
+  //   height: 350px;
+  //   background-color: $HappyBlue;
+  //   // width: 250px;
+  //   padding: 200px;
+  // }
+
+  .testimonial {
+    padding: 5% 0;
+  }
+
+  .testimonial-user-face {
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+  }
+
+  .testimonial-video {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+/*========================================
+  ========== Case Studies Section ==========
+  ========================================*/
+
+#case-studies {
+  padding-top: 4%;
+}
+
+/*========================================
+  ============ Client Section ==============
+  ========================================*/
+
+#client-section {
+  padding-top: 4%;
+  background-color: #f7f7f7;
+}
+
+.line-block {
+  content: "";
+  display: block;
+  width: 30px;
+  background-color: $OurOrange;
+}
+
+/*========================================
+  ============== CTA Section ==============
+  ========================================*/
+
+#cta {
+  padding-top: 4%;
+
+  .container {
+    background-color: $HappyBlue;
+    border-radius: 4px;
+    height: 285px;
+  }
+
+  .lady-cta {
+    z-index: 99;
+    left: 100px;
+  }
+}
+
+#footer-section {
+  padding-top: 8%;
+
+  a {
+    margin-top: 40px;
+  }
+
+  .container-fluid {
+    margin-top: 4%;
+    height: 80px;
+    background-color: #f8f8f8;
+    .container {
+      padding-top: 30px;
+    }
+  }
+}

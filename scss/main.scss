@@ -6,120 +6,61 @@
 @import "navbar"; // For Navbar
 @import "module"; // For Extra Effect for all pages
 
-/*========================================
-============== Hero Section ==============
-========================================*/
+//////////// Page Layout//////////////////
 
-#hero-section {
-  width: 100vw;
-  height: 90vh;
+@import "home-page";
+
+#features-treegain {
+  padding-top: 4%;
+  padding-bottom: 4%;
   background-color: $HappyBlue;
+  color: $JustWhite;
 
-  .hero-content {
-    padding-top: 6%;
-    padding-bottom: 100px;
-    vertical-align: middle;
+  .card {
+    color: $DarkBlack;
   }
 
-  .semi-circle {
-    content: "";
-    display: block;
-    width: 10000px;
-    background-color: rgba($HappyBlue, $alpha: 0.1);
-    border-radius: 50%;
-    position: relative;
+  .icon-card {
+    top: 0;
   }
 }
 
-/*========================================
-============ Service Section =============
-========================================*/
+#mobile-process {
+  padding-top: 4%;
+  padding-bottom: 4%;
 
-#service-section {
-  background-color: #f7f7f7;
-  padding-top: 2%;
-
-  // .block-rectangle {
-  //   content: "";
-  //   display: block;
-  //   height: 350px;
-  //   background-color: $HappyBlue;
-  //   // width: 250px;
-  //   padding: 200px;
-  // }
-
-  .testimonial {
-    padding: 5% 0;
-  }
-
-  .testimonial-user-face {
-    border-radius: 50%;
-    width: 76px;
-    height: 76px;
-  }
-
-  .testimonial-video {
+  img {
     width: 100%;
-    height: 350px;
+  }
+
+  .data-1 {
+    padding: 30px 20px;
+    background-color: $OurOrange;
+    border-radius: 8px;
+    color: $JustWhite;
   }
 }
 
-/*========================================
-========== Case Studies Section ==========
-========================================*/
-
-#case-studies {
-  padding-top: 4%;
-}
-
-/*========================================
-============ Client Section ==============
-========================================*/
-
-#client-section {
+#platform-section {
   padding-top: 4%;
   background-color: #f7f7f7;
-}
 
-.line-block {
-  content: "";
-  display: block;
-  width: 30px;
-  background-color: $OurOrange;
-}
+  .black-card {
+    background-color: $DarkBlack;
+    color: $JustWhite;
+    padding: 12% 4%;
+    border-radius: 10px;
 
-/*========================================
-============== CTA Section ==============
-========================================*/
+    .a-lot-text {
+      font-family: $Helvetic_Light;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 25px;
+      padding-top: 3%;
+    }
 
-#cta {
-  padding-top: 4%;
-
-  .container {
-    background-color: $HappyBlue;
-    border-radius: 4px;
-    height: 285px;
-  }
-
-  .lady-cta {
-    z-index: 99;
-    left: 100px;
-  }
-}
-
-#footer-section {
-  padding-top: 8%;
-
-  a {
-    margin-top: 40px;
-  }
-
-  .container-fluid {
-    margin-top: 4%;
-    height: 80px;
-    background-color: #f8f8f8;
-    .container {
-      padding-top: 30px;
+    a {
+      color: $JustWhite;
     }
   }
 }
