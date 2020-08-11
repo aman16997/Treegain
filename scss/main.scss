@@ -1,14 +1,18 @@
+// Bootstrap Import
 @import "../node_modules/bootstrap/scss/bootstrap"; //Bootstrap Import
 
-@import "variable"; //Colors
-@import "typography"; //Fonts & Typeface
-@import "button"; //For Fonts
-@import "navbar"; // For Navbar
-@import "module"; // For Extra Effect for all pages
+// 1- Variable
+@import "1-variables/variable"; // Colors
+@import "1-variables/typography"; //Fonts & Typeface
+@import "1-variables/button"; //For Buttons
 
-//////////// Page Layout//////////////////
+// 2-Modules
+@import "2-modules/navbar"; // For Navbar
+@import "2-modules/footer"; // For Navbar
+@import "2-modules/module"; // For Navbar
 
-@import "home-page";
+// 3-Page Layout
+@import "3-page-layout/home-page";
 
 #features-treegain {
   padding-top: 4%;
@@ -102,4 +106,8 @@
 
 #job {
   background-color: $HappyBlue;
+}
+
+input {
+  border-radius: 4rem;
 }
