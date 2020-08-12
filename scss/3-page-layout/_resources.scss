@@ -1,0 +1,52 @@
+#resources-section {
+  .hero-content {
+    background: url(/images/resources/resources-hero-1.jpg);
+    height: 90vh;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    .resources-content {
+      max-width: 600px;
+      text-align: center;
+      justify-content: center;
+      //   padding: 2% 0;
+
+      @media screen and (max-width: 600px) {
+        padding: 12% 0;
+      }
+    }
+  }
+}
+
+#download {
+  .book-image {
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      //   padding: 0 auto;
+    }
+  }
+}
+
+.vertical-content {
+  vertical-align: middle;
+  padding-top: 30%;
+}
+
+.book-left {
+  margin-left: -100px;
+  @media screen and (max-width: 600px) {
+    margin-left: 0;
+  }
+}
+
+.vertical-content-right {
+  vertical-align: middle;
+  padding-top: 20%;
+  margin-left: 100px;
+  width: 100%;
+  @media screen and (max-width: 600px) {
+    margin-left: -0;
+  }
+}

@@ -84,13 +84,12 @@
 .big,
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   color: #222;
   font-weight: bold;
-  font-family: "SF-Display-Medium", sans-serif;
+  font-family: "SF-Display-Bold", sans-serif;
   font-weight: 900;
   // text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
 }
@@ -103,36 +102,54 @@ h6 {
 
 .huge,
 h1 {
-  font-size: 56px;
+  font-size: 64px;
   line-height: 68px;
   @media only screen and (max-width: 680px) {
-    font-size: 44px;
+    font-size: 56px;
   }
 }
 
 .large,
 h2 {
-  font-size: 42px;
+  font-size: 56px;
   line-height: 1.14;
   @media only screen and (max-width: 680px) {
-    font-size: 32px;
+    font-size: 44px;
   }
 }
 
 .bigger,
 h3 {
-  font-size: 26px;
+  font-family: "SF-Display-Medium", sans-serif;
+  font-size: 48px;
+  line-height: 1.38;
+  font-weight: 600;
+  @media only screen and (max-width: 680px) {
+    font-size: 36px;
+  }
+}
+.big,
+h4 {
+  font-family: "SF-Display-Medium", sans-serif;
+
+  font-size: 32px;
+  line-height: 1.38;
+  @media only screen and (max-width: 680px) {
+    font-size: 28px;
+  }
+}
+h5 {
+  font-size: 28px;
   line-height: 1.38;
   @media only screen and (max-width: 680px) {
     font-size: 22px;
   }
 }
-.big,
-h4 {
-  font-size: 22px;
+h6 {
+  font-size: 24px;
   line-height: 1.38;
   @media only screen and (max-width: 680px) {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .small,
