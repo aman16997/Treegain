@@ -12,3 +12,59 @@
   justify-content: center;
   margin: 0 auto;
 }
+
+.card-service {
+  border: 2px solid $HappyBlue;
+  border-radius: 8px;
+  height: 390px;
+  padding-left: 20px;
+  margin-top: 20px;
+
+  p {
+    width: 80%;
+  }
+  @media screen and (max-width: 600px) {
+    margin-top: 20px;
+  }
+}
+
+.card-service:hover {
+  background-color: $HappyBlue;
+  color: white;
+
+  h6 {
+    color: white;
+  }
+
+  .svg-color {
+    fill: white;
+  }
+}
+
+.card-service-orange {
+  border: 2px solid $OurOrange;
+  border-radius: 8px;
+  height: 390px;
+  padding-left: 20px;
+  margin-top: 20px;
+
+  p {
+    width: 80%;
+  }
+  @media screen and (max-width: 600px) {
+    margin-top: 20px;
+  }
+}
+
+.card-service-orange:hover {
+  background-color: $OurOrange;
+  color: white;
+
+  h6 {
+    color: white;
+  }
+
+  .svg-color {
+    fill: white;
+  }
+}
