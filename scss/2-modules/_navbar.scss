@@ -31,3 +31,19 @@ nav {
   background: $OurOrange;
   // transition: width 0.3s;
 }
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: black;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    // background-color: black;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}

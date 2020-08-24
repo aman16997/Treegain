@@ -1,0 +1,67 @@
+.JustWhite {
+  color: #ffffff;
+}
+.JustWhite--background {
+  background-color: #ffffff;
+}
+
+.DarkBlack {
+  color: #ffffff;
+}
+.DarkBlack--background {
+  background-color: #0d0d0d;
+}
+
+.OurOrange {
+  color: #f26b1d;
+}
+.OurOrange--background {
+  background-color: #f26b1d;
+}
+
+.ColdBlue {
+  color: #26658c;
+}
+.ColdBlue--background {
+  background-color: #26658c;
+}
+
+.DullBlue {
+  color: #2976a6;
+}
+.DullBlue--background {
+  background-color: #2976a6;
+}
+
+.BlackBlue {
+  color: #021826;
+}
+.BlackBlue--background {
+  background-color: #021826;
+}
+
+.HappyBlue {
+  color: #26658c;
+}
+.HappyBlue--background {
+  background-color: #26658c;
+}
+
+.HappyBlue-1 {
+  color: #0348b0;
+}
+.HappyBlue-1--background {
+  background-color: #0348b0;
+}
+
+.OurOrange-1 {
+  color: #da5000;
+}
+.OurOrange-1--background {
+  background-color: #da5000;
+}
+
+.underline {
+  border-bottom: 5px solid #f26b1d;
+  display: inline;
+}

@@ -4,8 +4,7 @@
 
 #hero-section {
   width: 100vw;
-  height: 90vh;
-  // background-color: $ColdBlue;
+  height: 100%;
 
   .hero-content {
     padding-top: 6%;
@@ -13,13 +12,20 @@
     vertical-align: middle;
   }
 
-  .semi-circle {
-    content: "";
-    display: block;
-    width: 10000px;
-    background-color: rgba($HappyBlue, $alpha: 0.1);
-    border-radius: 50%;
-    position: relative;
+  .hero-images {
+    max-width: 100%;
+    @media screen and (max-width: 600px) {
+      margin-bottom: 50px;
+      margin-top: 20px;
+    }
+  }
+
+  .hero-text-content {
+    margin-top: 50px;
+
+    @media screen and (max-width: 600px) {
+      margin-top: 10px;
+    }
   }
 }
 

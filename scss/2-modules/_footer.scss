@@ -1,0 +1,22 @@
+#footer-section {
+  padding-top: 8%;
+
+  .social-icon {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  a {
+    margin-top: 40px;
+  }
+
+  .container-fluid {
+    margin-top: 4%;
+    height: 80px;
+    background-color: $Grey;
+    .container {
+      padding-top: 30px;
+    }
+  }
+}
