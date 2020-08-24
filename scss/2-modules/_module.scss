@@ -2,12 +2,12 @@
   background-color: rgba($JustWhite, $alpha: 10);
 }
 
-/*========================================
-  ============== CTA Section ==============
-  ========================================*/
 .hero-content {
   padding: 8% 0;
 }
+/*========================================
+  ============== CTA Section ==============
+  ========================================*/
 
 #cta {
   padding-top: 4%;
@@ -16,11 +16,17 @@
     background-color: $HappyBlue;
     border-radius: 10px;
     height: 285px;
-    padding-top: 2%;
+    color: $JustWhite;
+    padding: 40px 40px 40px 30px;
+
+    @media only screen and (max-width: 680px) {
+      border-radius: 0;
+      padding: 30px 10px 60px 20px;
+    }
   }
 
   .lady-cta {
-    z-index: 99;
+    // z-index: 99;
     left: 100px;
   }
 }

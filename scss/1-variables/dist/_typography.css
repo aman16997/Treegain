@@ -1,4 +1,3 @@
-////// SF Text
 @font-face {
   font-family: "SF-Text-Black";
   src: url(../fonts/SF-Pro-Text/woff2/SFProText-Black.woff2);
@@ -35,8 +34,6 @@
   font-family: "SF-Text-Ultralight";
   src: url(../fonts/SF-Pro-Text/woff2/SFProText-Ultralight.woff2);
 }
-
-////// SF Display
 @font-face {
   font-family: "SF-Display-Black";
   src: url(../fonts/SF-Pro-Display/woff/SFProDisplay-Black.woff2);
@@ -73,10 +70,6 @@
   font-family: "SF-Display-Ultralight";
   src: url(../fonts/SF-Pro-Display/woff/SFProDisplay-Ultralight.woff2);
 }
-
-//	Headings
-
-// @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900")
 .gigantic,
 .huge,
 .large,
@@ -91,7 +84,6 @@ h6 {
   font-weight: bold;
   font-family: "SF-Display-Bold", sans-serif;
   font-weight: 900;
-  // text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
 }
 
 .gigantic {
@@ -104,7 +96,10 @@ h6 {
 h1 {
   font-size: 64px;
   line-height: 68px;
-  @media only screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) {
+  .huge,
+h1 {
     font-size: 56px;
   }
 }
@@ -113,7 +108,10 @@ h1 {
 h2 {
   font-size: 56px;
   line-height: 1.14;
-  @media only screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) {
+  .large,
+h2 {
     font-size: 44px;
   }
 }
@@ -124,45 +122,54 @@ h3 {
   font-size: 48px;
   line-height: 1.38;
   font-weight: 600;
-  @media only screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) {
+  .bigger,
+h3 {
     font-size: 36px;
   }
 }
+
 .big,
 h4 {
   font-family: "SF-Display-Medium", sans-serif;
-
   font-size: 32px;
   line-height: 1.38;
-  @media only screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) {
+  .big,
+h4 {
     font-size: 28px;
   }
 }
+
 h5 {
   font-family: "SF-Display-Medium", sans-serif;
-
   font-size: 28px;
   line-height: 1.38;
-  @media only screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) {
+  h5 {
     font-size: 22px;
   }
 }
+
 h6 {
   font-family: "SF-Display-Medium", sans-serif;
-
   font-size: 20px;
   line-height: 1.38;
-  @media only screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) {
+  h6 {
     font-size: 18px;
   }
 }
+
 .small,
 small {
   font-size: 10px;
   line-height: 1.2;
 }
-
-// Basic Text Style
 
 body {
   font-family: "SF-Text-Light", sans-serif;
@@ -178,11 +185,14 @@ p {
   font-weight: 400;
   font-size: 19px;
   letter-spacing: -0.037px;
-  @media only screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) {
+  p {
     font-size: 17px;
     line-height: 25px;
   }
 }
+
 em {
   font-style: italic;
 }
