@@ -105,6 +105,8 @@ h1 {
   font-size: 64px;
   line-height: 68px;
   @media only screen and (max-width: 680px) {
+    font-family: "SF-Display-Medium", sans-serif;
+
     font-size: 56px;
   }
 }
@@ -114,7 +116,9 @@ h2 {
   font-size: 56px;
   line-height: 1.14;
   @media only screen and (max-width: 680px) {
-    font-size: 44px;
+    font-family: "SF-Display-Medium", sans-serif;
+
+    font-size: 40px;
   }
 }
 

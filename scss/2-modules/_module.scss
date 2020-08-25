@@ -30,3 +30,15 @@
     left: 100px;
   }
 }
+
+.center-heading {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+  @media only screen and (max-width: 680px) {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    line-height: 30;
+  }
+}

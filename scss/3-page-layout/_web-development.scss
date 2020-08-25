@@ -2,19 +2,19 @@
 ============== Hero Section ==============
 ========================================*/
 
-#hero-section {
+#website-section {
   width: 100vw;
   height: 100%;
 
-  .hero-content {
-    padding-top: 6%;
+  .website-content {
+    padding: 50px 0 90px 0;
     // padding-bottom: 100px;
     vertical-align: middle;
+    background-color: #d0deff;
   }
 
   .hero-images {
     max-width: 100%;
-    // box-shadow: 10px 10px 40px grey;
     @media screen and (max-width: 600px) {
       margin-bottom: 50px;
       margin-top: 20px;
@@ -31,17 +31,48 @@
 }
 
 /*========================================
-  ============ Service Section =============
-  ========================================*/
+    ============ feature Section =============
+    ========================================*/
 
-#service-section {
+#features-section {
   background-color: $Grey;
-  padding-bottom: 20px;
+  padding: 60px 0;
 
-  .underline-heading {
-    @media screen and (max-width: 600px) {
-      padding: 10px 10px 20px 10px;
+  .feature-card {
+    align-content: center;
+    justify-content: center;
+    transition: 1s;
+    padding: 20px;
+    text-align: center;
+    transition-duration: 0.2s;
+
+    h5 {
+      font-size: 24px;
     }
+    p {
+      font-family: "SF-Text-Regular", sans-serif;
+
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .card-content {
+      margin-top: 10px;
+    }
+  }
+
+  .feature-card:hover {
+    transition: scale(2);
+    background: $JustWhite;
+    box-shadow: 2px 2px 40px rgb(170, 170, 170);
+    z-index: 2;
+    padding: 20px;
+    border-radius: 4px;
+  }
+
+  .feature-svg {
+    max-width: 100%;
+    padding: 0;
   }
 
   .container {
@@ -82,8 +113,8 @@
 }
 
 /*========================================
-  ========== Case Studies Section ==========
-  ========================================*/
+    ========== Case Studies Section ==========
+    ========================================*/
 
 #case-studies {
   padding: 50px 0;
@@ -121,8 +152,8 @@
 }
 
 /*========================================
-  ============ Client Section ==============
-  ========================================*/
+    ============ Client Section ==============
+    ========================================*/
 #client-section {
   padding-top: 4%;
   background-color: #f7f7f7;
