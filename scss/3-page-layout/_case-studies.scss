@@ -9,59 +9,32 @@
     margin: 60px auto;
     width: 50%;
 
-    .case-heading {
-      font-size: 80px;
-      margin: 20px 0;
-      line-height: 80px;
-
-      @media only screen and (max-width: 600px) {
-        line-height: 40px;
-        font-size: 44px;
-      }
+    .display-4 {
+      font-size: 44px !important;
     }
-
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 600px) {
       margin: 30px 15px;
-      width: 100%;
+      width: 90%;
     }
+  }
+}
+.case-heading {
+  font-size: 60px;
+  font-family: "SF-Display-Medium", sans-serif;
+
+  margin: 20px 0;
+  line-height: 80px;
+
+  @media only screen and (max-width: 600px) {
+    line-height: 40px;
+    font-size: 44px;
   }
 }
 .case-image {
   background-repeat: no-repeat;
   width: 100%;
-}
-
-.career-content {
-  max-width: 600px;
-  text-align: center;
-  justify-content: center;
-}
-
-#job {
-  //   margin-top: 45%;
-  margin-bottom: 4%;
-  background-color: $Grey;
-}
-
-#thrive {
-  .thrive-content {
-    padding: 10% 0 3% 0;
-    max-width: 600px;
-    text-align: center;
-    justify-content: center;
-  }
-}
-.center-image {
-  width: 100%;
-}
-
-#happy {
-  padding: 4% 0;
-}
-
-#resume-cta {
-  img {
-    position: inherit;
+  @media only screen and (max-width: 600px) {
+    height: 100%;
     width: 100%;
   }
 }

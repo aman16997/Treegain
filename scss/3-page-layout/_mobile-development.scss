@@ -36,6 +36,10 @@
   background-color: #f7f7f7;
 
   .black-card {
+    h4,
+    a {
+      color: $JustWhite;
+    }
     background-color: $DarkBlack;
     color: $JustWhite;
     padding: 12% 4%;

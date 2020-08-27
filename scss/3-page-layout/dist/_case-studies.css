@@ -1,0 +1,44 @@
+#case-section {
+  width: 100vw;
+}
+#case-section .hero-content {
+  padding: 6% 0 5% 0;
+  display: block;
+}
+#case-section .case-description {
+  margin: 60px auto;
+  width: 50%;
+}
+#case-section .case-description .display-4 {
+  font-size: 44px !important;
+}
+@media only screen and (max-width: 600px) {
+  #case-section .case-description {
+    margin: 30px 15px;
+    width: 90%;
+  }
+}
+
+.case-heading {
+  font-size: 60px;
+  font-family: "SF-Display-Medium", sans-serif;
+  margin: 20px 0;
+  line-height: 80px;
+}
+@media only screen and (max-width: 600px) {
+  .case-heading {
+    line-height: 40px;
+    font-size: 44px;
+  }
+}
+
+.case-image {
+  background-repeat: no-repeat;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .case-image {
+    height: 100%;
+    width: 100%;
+  }
+}
