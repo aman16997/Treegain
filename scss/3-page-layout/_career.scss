@@ -14,7 +14,7 @@
 }
 
 .career-content {
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
   justify-content: center;
 }
@@ -25,10 +25,26 @@
   background-color: $Grey;
 }
 
+.small-image {
+  max-width: 80%;
+  float: right;
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+  }
+}
+
+.up-side-image {
+  margin-top: -60px;
+  @media screen and (max-width: 600px) {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
 #thrive {
   .thrive-content {
     padding: 10% 0 3% 0;
-    max-width: 600px;
+    max-width: 700px;
     text-align: center;
     justify-content: center;
   }

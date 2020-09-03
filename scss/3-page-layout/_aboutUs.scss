@@ -40,19 +40,3 @@
     }
   }
 }
-
-.small-image {
-  max-width: 80%;
-  float: right;
-  @media screen and (max-width: 600px) {
-    max-width: 100%;
-  }
-}
-
-.up-side-image {
-  margin-top: -200px;
-  @media screen and (max-width: 600px) {
-    margin: 0;
-    max-width: 100%;
-  }
-}

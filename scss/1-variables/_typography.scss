@@ -152,7 +152,7 @@ h5 {
   }
 }
 h6 {
-  font-family: "SF-Display-Medium", sans-serif;
+  font-family: "SF-Display-Regular", sans-serif;
 
   font-size: 20px;
   line-height: 1.38;
@@ -192,9 +192,9 @@ em {
 }
 
 .strong-header {
-  font-weight: bold;
+  // font-weight: bold;
   font-family: "SF-Display-Semibold", sans-serif;
-  font-weight: 700;
+  font-size: 17px;
 }
 
 hr {
