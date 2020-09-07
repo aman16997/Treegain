@@ -1,3 +1,43 @@
+#cta {
+  padding-top: 4%;
+
+  .container {
+    background-color: $HappyBlue;
+    border-radius: 10px;
+    height: 285px;
+    // height: 1%;
+    color: $JustWhite;
+    padding: 40px 40px 30px 30px;
+
+    // overflow: hidden;
+
+    @media only screen and (max-width: 880px) {
+      border-radius: 10;
+      // height: 350px;
+      overflow: hidden;
+      padding: 30px 10px 60px 20px;
+    }
+    @media only screen and (max-width: 680px) {
+      border-radius: 0;
+      padding: 30px 10px 60px 20px;
+    }
+  }
+
+  .lady-cta {
+    // z-index: 99;
+    left: 100px;
+    @media only screen and (max-width: 1200px) {
+      left: 40px;
+    }
+    @media only screen and (max-width: 992px) {
+      left: 80px;
+    }
+    @media only screen and (max-width: 768px) {
+      left: 50px;
+    }
+  }
+}
+
 .cta-modal {
   background-color: #000;
   //   background-color: DarkBlack--background;

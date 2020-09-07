@@ -9,28 +9,6 @@
   ============== CTA Section ==============
   ========================================*/
 
-#cta {
-  padding-top: 4%;
-
-  .container {
-    background-color: $HappyBlue;
-    border-radius: 10px;
-    height: 285px;
-    color: $JustWhite;
-    padding: 40px 40px 40px 30px;
-
-    @media only screen and (max-width: 680px) {
-      border-radius: 0;
-      padding: 30px 10px 60px 20px;
-    }
-  }
-
-  .lady-cta {
-    // z-index: 99;
-    left: 100px;
-  }
-}
-
 .center-heading {
   margin: 0 auto;
   text-align: center;
