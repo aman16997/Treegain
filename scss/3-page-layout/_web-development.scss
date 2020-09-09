@@ -43,6 +43,7 @@
     justify-content: center;
     transition: 1s;
     padding: 20px;
+    text-align: justify;
     text-align: center;
     transition-duration: 0.2s;
 
@@ -51,7 +52,6 @@
     }
     p {
       font-family: "SF-Text-Regular", sans-serif;
-
       font-size: 16px;
       line-height: 24px;
     }
@@ -61,18 +61,10 @@
     }
   }
 
-  .feature-card:hover {
-    transition: scale(2);
-    background: $JustWhite;
-    box-shadow: 2px 2px 40px rgb(170, 170, 170);
-    z-index: 2;
-    padding: 20px;
-    border-radius: 4px;
-  }
-
   .feature-svg {
     max-width: 100%;
-    padding: 0;
+    // padding: 0;
+    max-height: 200px;
   }
 
   .container {

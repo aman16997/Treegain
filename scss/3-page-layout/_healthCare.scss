@@ -1,0 +1,86 @@
+#health-section {
+  .health-content {
+    background-color: #d4e4fe;
+    max-height: 700px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.center-content {
+  padding: 80px 0 40px 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#health-benefits {
+  margin-top: 200px;
+  @media screen and (max-width: 700px) {
+    margin-top: 10px;
+  }
+}
+
+#app-goal {
+  margin-top: 100px;
+  background-color: $Grey;
+  padding: 50px 0;
+  .center-content {
+    width: 70%;
+  }
+
+  .illu-image {
+    width: 70%;
+    height: 60%;
+  }
+  .illu-image-1 {
+    width: 50%;
+    height: 60%;
+  }
+}
+
+#challenges {
+  padding: 60px 0;
+  .challenges-benefits {
+    padding: 15px 0;
+    .challenges-images {
+      width: 30%;
+    }
+  }
+}
+
+#tech-stack {
+  //   background-color: $Grey;
+  .tech-logo {
+    margin: 10px 0;
+    // transition: 0.41s;
+    align-items: center;
+  }
+  //   .tech-logo:hover {
+  //     transition: scale(1);
+  //     background: $JustWhite;
+  //     box-shadow: 1px 1px 10px rgb(170, 170, 170);
+  //     z-index: 2;
+  //     padding: 10px;
+  //   }
+}
+
+#solution {
+  margin-top: 100px;
+  hr {
+    height: 4px;
+    background-color: $OurOrange;
+    width: 30%;
+    // margin-left: auto;
+
+    @media screen and (min-width: 700px) {
+      margin-right: auto;
+    }
+  }
+}
+
+#faq {
+  margin: 100px 0;
+}

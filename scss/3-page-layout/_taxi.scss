@@ -1,0 +1,94 @@
+#taxi-section {
+  .taxi-content {
+    background-color: #fbefdb;
+    max-height: 700px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.center-content {
+  padding: 80px 0 40px 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  @media screen and (max-width: 700px) {
+    width: 90%;
+  }
+}
+
+#taxi-benefits {
+  margin-top: 500px;
+  @media screen and (max-width: 700px) {
+    margin-top: 100px;
+  }
+}
+
+#taxi-app-goal {
+  margin-top: 80px;
+  background-color: $Grey;
+  padding: 20px 0;
+  .center-content {
+    width: 70%;
+  }
+
+  .illu-image {
+    width: 100%;
+    height: 60%;
+  }
+  .illu-image-1 {
+    width: 70%;
+    height: 60%;
+  }
+  .illu-image-11 {
+    width: 100%;
+    height: 60%;
+  }
+}
+
+#taxi-challenges {
+  padding: 60px 0;
+  .challenges-benefits {
+    padding: 15px 0;
+    // display: flex;
+    .challenges-images {
+      width: 30%;
+    }
+  }
+}
+
+#tech-stack {
+  //   background-color: $Grey;
+  .tech-logo {
+    margin: 10px 0;
+    // transition: 0.41s;
+    align-items: center;
+  }
+  //   .tech-logo:hover {
+  //     transition: scale(1);
+  //     background: $JustWhite;
+  //     box-shadow: 1px 1px 10px rgb(170, 170, 170);
+  //     z-index: 2;
+  //     padding: 10px;
+  //   }
+}
+
+#solution {
+  margin-top: 100px;
+  hr {
+    height: 4px;
+    background-color: $OurOrange;
+    width: 30%;
+    // margin-left: auto;
+
+    @media screen and (min-width: 700px) {
+      margin-right: auto;
+    }
+  }
+}
+
+#faq {
+  margin: 100px 0;
+}

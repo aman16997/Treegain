@@ -12,6 +12,13 @@ $HappyBlue: #26658c;
 $HappyBlue-1: #0348b0;
 $Grey: #f8f8f8;
 
+.Grey {
+  color: $Grey;
+  &--background {
+    background-color: $Grey;
+  }
+}
+
 .JustWhite {
   color: $JustWhite;
   &--background {
