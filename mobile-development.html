@@ -1,20 +1,25 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fav icon -->
+    <link rel="icon" href="images/icon.svg" type="image/svg" sizes="24x24" />
+    <!-- Fav icon -->
+    <!-- Main css -->
     <link rel="stylesheet" href="css/main.css" />
+    <!-- Main css -->
     <title>Mobile Development | Treegain Technologies</title>
   </head>
   <body>
     <!-- Hero Section Start -->
     <section id="hero-section" class="mb-5">
-        <!-- Navbar Start -->
-        <nav
+      <!-- Navbar Start -->
+      <nav
         class="navbar navbar-expand-lg navbar-light bg-light navbar-transparent"
       >
         <div class="container">
-          <a class="navbar-brand" href="/index.html">
+          <a class="navbar-brand" href="index.html">
             <img
               src="images/logo.png"
               alt="Treegain Technologies"
@@ -34,11 +39,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-              <a class="nav-link" href="/index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
 
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link"
+                  class="nav-link active"
                   href="mobile-development.html"
                   data-toggle="dropdown"
                 >
@@ -72,49 +77,43 @@
                 <a class="nav-link" href="industries.html"> Industries </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="industries/healthcare.html"
+                    <a class="dropdown-item" href="healthcare.html"
                       >Healthcare
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="industries/automotive.html"
+                    <a class="dropdown-item" href="automotive.html"
                       >Automotive
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="industries/social-media.html"
+                    <a class="dropdown-item" href="social-media.html"
                       >Social Media
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="industries/Retail.html"
-                      >Retail
-                    </a>
+                    <a class="dropdown-item" href="Retail.html">Retail </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="industries/Restaurants.html"
+                    <a class="dropdown-item" href="Restaurants.html"
                       >Restaurants
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="industries/Education.html"
+                    <a class="dropdown-item" href="Education.html"
                       >Education
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="industries/Finance.html"
-                      >Finance
-                    </a>
+                    <a class="dropdown-item" href="Finance.html">Finance </a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="industries/Entertainment.html"
+                    <a class="dropdown-item" href="Entertainment.html"
                       >Entertainment
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="industries/On-Demand.html"
+                    <a class="dropdown-item" href="On-Demand.html"
                       >On Demand
                     </a>
                   </li>
@@ -139,30 +138,44 @@
         </div>
       </nav>
       <!-- Navbar End -->
+
       <div class="hero-content">
         <div class="container-fluid">
           <div class="container">
             <div class="row">
-              <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12 pt-5">
-                <!-- <p class="">We design Web Projects</p> -->
-                <h2 class="">
-                  Effective &amp; Unrivalled Mobile App Development 
-                </h2>
-                <p class="">
-                  As the best mobile application development firm, we help our customers select the best
-                  customer platform from different technology platforms to effectively deliver efficient, elegant, and
-                  easy-to-use mobile apps.
-                </p>
-
-                <button class="orange-button mt-4 mb-4">Let's Discuss</button>
-              </div>
               <div
-                class="col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12 d-none d-md-block"
+                class="col-xl-6 col-lg-6 order-lg-2 col-md-5 col-sm-12 col-12"
+                id="hero_image"
               >
                 <img
                   src="/images/mobile-development/Mobile-Development.svg"
                   alt="Treegain Technologies Development"
+                  class="hero-images"
                 />
+              </div>
+              <div
+                class="col-xl-6 col-lg-6 order-lg-1 col-md-5 col-sm-12 col-12"
+              >
+                <!-- <p class="">We design Web Projects</p> -->
+                <h2 class="">
+                  Effective &amp; Unrivalled Mobile App Development
+                </h2>
+                <p class="">
+                  As the best mobile application development firm, we help our
+                  customers select the best customer platform from different
+                  technology platforms to effectively deliver efficient,
+                  elegant, and easy-to-use mobile apps.
+                </p>
+
+                <button
+                  class="orange-button mt-4 mb-4"
+                  type="button"
+                  class="normal-button"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Let's Discuss
+                </button>
               </div>
             </div>
           </div>
@@ -172,91 +185,118 @@
     <!-- Hero Section End -->
 
     <!-- Benefits of Treegrain Start -->
-    <section id="features-treegain">
+    <section id="features-mobile">
       <div class="container-fluid">
         <div class="container">
-          <div class="text-heading-content">
-            <h4 class="">Why Choose Treegain As Your Mobile App Development Partner?</h4>
+          <div class="new-heading">
+            <h4 class="">
+              Why Choose Treegain As Your Mobile App Development Partner?
+            </h4>
             <p>
-              Our successful network of app developers is capable of delivering mobile web app, native app,
-              and hybrid app strategy while taking into account many specific factors including intermittent
-              connectivity, fully responsive, flexible bandwidth, application form factor, user interface, multi-
-              platform support, and also more.
+              Our successful network of app developers is capable of delivering
+              mobile web app, native app, and hybrid app strategy while taking
+              into account many specific factors including intermittent
+              connectivity, fully responsive, flexible bandwidth, application
+              form factor, user interface, multi-platform support, and also
+              more.
             </p>
           </div>
           <!-- Cards  Start -->
           <div class="row">
-              <!-- 1st Card -->
-            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-              <div class="card border-0 py-4">
-                <div class="card-body px-5">
-                    <div class="">
-                     <img src="./icons/mobile-team.svg" alt="" class="mr-3"> 
-                        <h5 class="card-title">Handpicked skilled developers</h5>
-                    </div>
-                    <p class="card-text my-1">
-                      With years of professional experience and extensive knowledge, we've handpicked the best mobile device developers. Depending on the requirements and your user's preferences, we excel in providing Android, iOS, native, hybrid, web app, and custom smartphone applications.
-
-                    </p>
+            <!-- 1st Card -->
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="feature-card">
+                <img
+                  src="images/web-development/Web devices-cuate.svg"
+                  alt=""
+                  class="feature-svg"
+                />
+                <div class="card-content">
+                  <h5>
+                    Personalized & Featured Rich <br />
+                    Mobile App Development
+                  </h5>
+                  <p>
+                    We have a bunch of talented mobile app developers with over
+                    10 + years of experience creating mobile applications that
+                    are seamless and convincing to expand your business and
+                    sales. Value is which we never compromise with our built
+                    apps that are going through agile evaluation measures for
+                    the best end result at every point of development.
+                  </p>
                 </div>
               </div>
             </div>
-           
-             <!-- 2nd Card -->
-             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-                <div class="card border-0 py-4">
-                  <div class="card-body px-5">
-                      <div class="">
-                       <img src="./icons/mobile-building.svg" alt="" class="mr-3"> 
-                          <h5 class="card-title ml-3">
-                            Custom-Mobile App Development 
-</h5>
-                      </div>
-                      <p class="card-text my-1">
-                        Our distinctive working framework, customer-centered approach, and clear process allowed us to acquire the first position among leading mobile app development services. We pay attention to every aspect of the customer's requirements and function until we produce a complete mobile device beyond consumer expectations.
 
-                      </p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- 2ndrow -->
-          <div class="row mt-2">
             <!-- 3rd Card -->
-          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-            <div class="card border-0 py-4">
-              <div class="card-body px-5">
-                  <div class="">
-                   <img src="./icons/mobile-process.svg" alt="" class="mr-3"> 
-                      <h5 class="card-title">Personalized & Featured Rich Mobile App Development</h5>
-                  </div>
-                  <div class="card-text">
-                    We have a bunch of talented mobile app developers with over 10 + years of experience creating mobile applications that are seamless and convincing to expand your business and sales. Value is which we never compromise with our built apps that are going through agile evaluation measures for the best end result at every point of development.
-
-                  </div>
-              </div>
-            </div>
-          </div>
-         
-           <!-- 4th Card -->
-           <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-              <div class="card border-0 py-4">
-                <div class="card-body px-5">
-                    <div class="">
-                     <img src="./icons/mobile-time.svg" alt="" class="mr-3"> 
-                        <h5 class="card-title">
-                          Quality Assurance Testing
-</h5>
-                    </div>
-                    <div class="card-text">
-                      Our built apps go through a process of multi-stage testing, where the developers placed the software under extensive testing. From reliability to pace through to the user interface, all was thoroughly tested during the evaluation. When we are satisfied that the software is ready for end-users, then we only send it to the customer waiting for assessment and support.
-                    </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="feature-card">
+                <img
+                  src="images/web-development/Statistics-pana.svg"
+                  alt=""
+                  class="feature-svg"
+                />
+                <div class="card-content">
+                  <h5>Quality Assurance Testing</h5>
+                  <p>
+                    Our built apps go through a process of multi-stage testing,
+                    where the developers placed the software under extensive
+                    testing. From reliability to pace through to the user
+                    interface, all was thoroughly tested during the evaluation.
+                    When we are satisfied that the software is ready for
+                    end-users, then we only send it to the customer waiting for
+                    assessment and support.
+                  </p>
                 </div>
               </div>
             </div>
-        </div>
-        <!-- Row End -->
           </div>
+          <!--  -->
+          <div class="row">
+            <!-- 1st Card -->
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="feature-card">
+                <img
+                  src="images/web-development/Usability testing-cuate.svg"
+                  alt=""
+                  class="feature-svg"
+                />
+                <div class="card-content">
+                  <h5>Custom-Mobile App Development</h5>
+                  <p>
+                    Our distinctive working framework, customer-centered
+                    approach, and clear process allowed us to acquire the first
+                    position among leading mobile app development services. We
+                    pay attention to every aspect of the customer's requirements
+                    and function until we produce a complete mobile device
+                    beyond consumer expectations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="feature-card">
+                <img
+                  src="images/web-development/Team-cuate.svg"
+                  alt=""
+                  class="feature-svg"
+                />
+                <div class="card-content">
+                  <h5>Handpicked skilled developers</h5>
+                  <p>
+                    With years of professional experience and extensive
+                    knowledge, we've handpicked the best mobile device
+                    developers. Depending on the requirements and your user's
+                    preferences, we excel in providing Android, iOS, native,
+                    hybrid, web app, and custom smartphone applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
         </div>
       </div>
     </section>
@@ -264,104 +304,119 @@
 
     <!-- Mobile Process Start -->
     <section id="mobile-process">
-        <div class="container">
-            <div class="py-4">
-                <h3>How we turn an idea into an app?</h3>
-                
-            </div>
-            <div class="row mt-2">
-              <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-                  <img src="/images/mobile-development/mobile-process.svg" alt="">
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-                   <div class="data-1">
-                    <h5 class="JustWhite">Redefining App Development 
-                    </h5>
-                    We combine our years of work experience with deep business expertise and cutting-edge technology to create a masterpiece. Our mobile device development services are leveraged by companies to tackle market problems of any type and scale, giving them a freedom to customized forum to entertain their users.
-
-
-                   </div> 
-                   <div class="data-2 mt-3">
-                    <h5>Utilizing the innovative approach
-                    </h5>
-                    Our dedicated community of app developers is ready to fulfill mobile web app, native app, and hybrid app strategy while taking into account many specific factors including intermittent connectivity, responsive design, flexible bandwidth, application form factor, user interface, multiple platforms support, and much more.
-
-                   </div> 
-                   <div class="data-3 mt-3">
-                       <h5>Secured investment
-                      </h5>
-                      Whether you should be searching for a new device from scratch or helping to refine an application that is underperforming, Treegain is the stop for all your usability solutions. Our professionals help to boost company efficiency and rising risk with the aid of established software development processes, innovations, and resources.
-
-                   </div> 
-                   
-                  </div>
-            </div>
+      <div class="container">
+        <div class="py-4">
+          <h3>How we turn an idea into an app?</h3>
         </div>
+        <div class="row mt-2">
+          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
+            <img src="/images/mobile-development/mobile-process.svg" alt="" />
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
+            <div class="data-1">
+              <h5 class="JustWhite">Redefining App Development</h5>
+              We combine our years of work experience with deep business
+              expertise and cutting-edge technology to create a masterpiece. Our
+              mobile device development services are leveraged by companies to
+              tackle market problems of any type and scale, giving them a
+              freedom to customized forum to entertain their users.
+            </div>
+            <div class="data-2 mt-3">
+              <h5>Utilizing the innovative approach</h5>
+              Our dedicated community of app developers is ready to fulfill
+              mobile web app, native app, and hybrid app strategy while taking
+              into account many specific factors including intermittent
+              connectivity, responsive design, flexible bandwidth, application
+              form factor, user interface, multiple platforms support, and much
+              more.
+            </div>
+            <div class="data-3 mt-3">
+              <h5>Secured investment</h5>
+              Whether you should be searching for a new device from scratch or
+              helping to refine an application that is underperforming, Treegain
+              is the stop for all your usability solutions. Our professionals
+              help to boost company efficiency and rising risk with the aid of
+              established software development processes, innovations, and
+              resources.
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Mobile Process End -->
 
     <!-- Cross Platform Section Start  -->
     <section id="platform-section">
-        <div class="container-fluid">
-            <div class="container">
-                <h3 class="text-center">
-                  What do we offer?
-                </h3>
-           
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-                    <div class="black-card">
-                    <h4 class="JustWhite">Custom App Development 
-                    </h4>
-                    <div class="a-lot-text">
-                      We're shipping the app right away. Like other companies that build software, we don't demand any payment for extra functionality and seek to make a hole in your wallet. Instead, we give entrepreneurs the most cost-effective service.
+      <div class="container-fluid">
+        <div class="container">
+          <h3 class="text-center">What do we offer?</h3>
 
-                        <br><br>
-                        
-                          We provide a wide variety of software development support that serves as a single stop for all of your mobile app common complications. No matter what the problem is, we're here for our customers all the time to help them cope with the problem by offering fast and effective alternatives.
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
+              <div class="black-card">
+                <h4 class="JustWhite">Custom App Development</h4>
+                <div class="a-lot-text">
+                  We're shipping the app right away. Like other companies that
+                  build software, we don't demand any payment for extra
+                  functionality and seek to make a hole in your wallet. Instead,
+                  we give entrepreneurs the most cost-effective service.
 
-                        
-                    </div>
-                    <a  
-                    type="button"
-                    data-toggle="modal"
-                    data-target="#exampleModal">
-                        <h6 class="mt-5 JustWhite">
-                        Let’s Discuss Your Idea
-                        <img src="./icons/forward-arrow.svg" alt="">
+                  <br /><br />
 
-                        </h6>    
-                    </a>
+                  We provide a wide variety of software development support that
+                  serves as a single stop for all of your mobile app common
+                  complications. No matter what the problem is, we're here for
+                  our customers all the time to help them cope with the problem
+                  by offering fast and effective alternatives.
                 </div>
+                <a
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  <h6 class="mt-5 JustWhite">
+                    Let’s Discuss Your Idea
+                    <img src="./icons/forward-arrow.svg" alt="" />
+                  </h6>
+                </a>
+              </div>
             </div>
 
             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-                <div class="black-card">
-                <h4 class="JustWhite">State of the art technology assistance
-                     </h4>
+              <div class="black-card">
+                <h4 class="JustWhite">
+                  State of the art technology assistance
+                </h4>
                 <div class="a-lot-text">
-                  Our unique organization additionally, customer-centered approach, and clear process allowed us to acquire the first position among top mobile app development companies. We pay attention to every aspect of the customer's requirements and function until we produce a complete mobile device beyond consumer expectations.
-                    <br><br>
-                    
-                      As India's top mobile app development agency, it is our duty to help businesses grow their market and target customers with successful incorporation of the mobile app into their business strategy. We assist businesses with ongoing assistance from the product concept to production and beyond.
+                  Our unique organization additionally, customer-centered
+                  approach, and clear process allowed us to acquire the first
+                  position among top mobile app development companies. We pay
+                  attention to every aspect of the customer's requirements and
+                  function until we produce a complete mobile device beyond
+                  consumer expectations.
+                  <br /><br />
 
-                  
+                  As India's top mobile app development agency, it is our duty
+                  to help businesses grow their market and target customers with
+                  successful incorporation of the mobile app into their business
+                  strategy. We assist businesses with ongoing assistance from
+                  the product concept to production and beyond.
                 </div>
-                <a  
-                type="button"
-                data-toggle="modal"
-                data-target="#exampleModal">
-                    <h6 class="mt-5 JustWhite">
+                <a
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  <h6 class="mt-5 JustWhite">
                     Let’s Discuss Your Idea
-                    <img src="./icons/forward-arrow.svg" alt="">
-
-                    </h6>    
+                    <img src="./icons/forward-arrow.svg" alt="" />
+                  </h6>
                 </a>
+              </div>
             </div>
+          </div>
         </div>
-            </div>
-            </div>
-        </div>
+      </div>
     </section>
     <!-- Cross Platform Section End  -->
 
@@ -412,18 +467,17 @@
     <section id="cta">
       <div class="container">
         <div class="row">
-          <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
             <!-- <div class="pl-3"> -->
-            <h4 class="JustWhite">
-              Start Building Your App Now!
-
-
-            </h4>
+            <h4 class="JustWhite">Start Building Your App Now!</h4>
             <p>
-              We recommend custom solutions m and end-to-end mobile device app development for both business and consumer-facing ecosystems. So come on, let's think about your idea and turn it into an awesome product.
+              We recommend custom solutions m and end-to-end mobile device app
+              development for both business and consumer-facing ecosystems. So
+              come on, let's think about your idea and turn it into an awesome
+              product.
             </p>
             <button
-              type="button"
+              type="button "
               data-toggle="modal"
               data-target="#exampleModal"
               class="orange-button"
@@ -433,7 +487,7 @@
             <!-- </div> -->
           </div>
           <div
-            class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 lady-cta d-none d-md-block"
+            class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 lady-cta d-none d-lg-block"
           >
             <img src="./images/CTA-Ilu.svg" alt="" />
           </div>
@@ -443,7 +497,6 @@
     <!-- Project CTA End -->
 
     <!-- Project Modal Start -->
-
     <div
       class="modal fade"
       id="exampleModal"
@@ -482,7 +535,7 @@
                     </p>
                     <p>
                       <img src="./icons/modal-phone.svg" alt="" />
-                      +91-98996-75716
+                      +91-88600-69793
                     </p>
                   </div>
                   <div class="my-5">
@@ -590,12 +643,12 @@
     </div>
     <!-- Project Modal End -->
 
-    <!-- Footer Start -->
+    <!-- footer start -->
     <footer id="footer-section">
       <div class="container">
         <div class="row">
           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-            <img src="images/logo.png" alt="" />
+            <img src="images/logo.png" alt="Treegain Technologies" />
             <p>
               Treegain is a one-stop solution for all your technical problems,
               we help our clients beyond professional aspects.
@@ -604,6 +657,7 @@
               <a
                 href="https://www.facebook.com/treegain"
                 class="mr-3 facebook-icon"
+                target="_blank"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -642,7 +696,11 @@
                   </g>
                 </svg>
               </a>
-              <a href="" class="mr-3 dribble-icon">
+              <a
+                href="https://dribbble.com/treegaintechnologies"
+                class="mr-3 dribble-icon"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="47"
@@ -683,44 +741,45 @@
                 </svg>
               </a>
               <!-- <a href="" class="mr-3 behance-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="47"
+              height="47"
+              viewBox="0 0 47 47"
+            >
+              <g id="Behance" transform="translate(16169 -4650)">
+                <rect
+                  id="Rectangle_120"
+                  data-name="Rectangle 120"
                   width="47"
                   height="47"
-                  viewBox="0 0 47 47"
+                  rx="8"
+                  transform="translate(-16169 4650)"
+                  fill="#f7f7f7"
+                />
+                <g
+                  id="behance-fill"
+                  transform="translate(-16158 4661)"
+                  opacity="0.5"
                 >
-                  <g id="Behance" transform="translate(16169 -4650)">
-                    <rect
-                      id="Rectangle_120"
-                      data-name="Rectangle 120"
-                      width="47"
-                      height="47"
-                      rx="8"
-                      transform="translate(-16169 4650)"
-                      fill="#f7f7f7"
-                    />
-                    <g
-                      id="behance-fill"
-                      transform="translate(-16158 4661)"
-                      opacity="0.5"
-                    >
-                      <path
-                        id="Path_281"
-                        data-name="Path 281"
-                        d="M0,0H24V24H0Z"
-                        fill="none"
-                      />
-                      <path
-                        id="Path_282"
-                        data-name="Path 282"
-                        d="M7.443,5.35a6.71,6.71,0,0,1,1.77.2,3.83,3.83,0,0,1,1.377.544,2.277,2.277,0,0,1,.885,1.039,3.946,3.946,0,0,1,.3,1.583,2.773,2.773,0,0,1-.491,1.731A3.559,3.559,0,0,1,9.9,11.583a3.293,3.293,0,0,1,1.868,1.286,3.911,3.911,0,0,1,.64,2.177,3.96,3.96,0,0,1-.394,1.781,3.283,3.283,0,0,1-1.082,1.237,5.078,5.078,0,0,1-1.573.692A7.243,7.243,0,0,1,7.591,19H1V5.35Zm-.394,5.54a2.231,2.231,0,0,0,1.328-.4,1.448,1.448,0,0,0,.492-1.237,1.893,1.893,0,0,0-.148-.791,1.4,1.4,0,0,0-.442-.495,2.45,2.45,0,0,0-.64-.247,3.908,3.908,0,0,0-.787-.05H4v3.216H7.05ZM7.2,16.728a4.344,4.344,0,0,0,.836-.1,1.72,1.72,0,0,0,.688-.3,1.76,1.76,0,0,0,.492-.544,2.379,2.379,0,0,0,.2-.89,1.913,1.913,0,0,0-.59-1.534,2.584,2.584,0,0,0-1.574-.445H4v3.81H7.2Zm9.492-.05a2.393,2.393,0,0,0,1.77.594,2.678,2.678,0,0,0,1.426-.4,1.972,1.972,0,0,0,.738-.891h2.41a4.831,4.831,0,0,1-1.77,2.572,5.233,5.233,0,0,1-2.853.792,5.753,5.753,0,0,1-2.115-.4,3.93,3.93,0,0,1-1.574-1.088,3.93,3.93,0,0,1-.983-1.633,5.846,5.846,0,0,1-.345-2.127,5.763,5.763,0,0,1,.345-2.078,5.34,5.34,0,0,1,1.032-1.682,5.014,5.014,0,0,1,1.574-1.088,5.49,5.49,0,0,1,2.066-.4,4.568,4.568,0,0,1,2.213.5,4,4,0,0,1,1.525,1.336,6.01,6.01,0,0,1,.885,1.88,10.47,10.47,0,0,1,.1,2.176H16a2.851,2.851,0,0,0,.689,1.93Zm3.1-5.194a2.123,2.123,0,0,0-1.525-.544,2.34,2.34,0,0,0-1.082.247,2.6,2.6,0,0,0-.688.545,1.322,1.322,0,0,0-.344.692,3.368,3.368,0,0,0-.1.643h4.426A2.632,2.632,0,0,0,19.787,11.484ZM15.459,6.29h5.508V7.626H15.46V6.29Z"
-                      />
-                    </g>
-                  </g>
-                </svg>
-              </a> -->
+                  <path
+                    id="Path_281"
+                    data-name="Path 281"
+                    d="M0,0H24V24H0Z"
+                    fill="none"
+                  />
+                  <path
+                    id="Path_282"
+                    data-name="Path 282"
+                    d="M7.443,5.35a6.71,6.71,0,0,1,1.77.2,3.83,3.83,0,0,1,1.377.544,2.277,2.277,0,0,1,.885,1.039,3.946,3.946,0,0,1,.3,1.583,2.773,2.773,0,0,1-.491,1.731A3.559,3.559,0,0,1,9.9,11.583a3.293,3.293,0,0,1,1.868,1.286,3.911,3.911,0,0,1,.64,2.177,3.96,3.96,0,0,1-.394,1.781,3.283,3.283,0,0,1-1.082,1.237,5.078,5.078,0,0,1-1.573.692A7.243,7.243,0,0,1,7.591,19H1V5.35Zm-.394,5.54a2.231,2.231,0,0,0,1.328-.4,1.448,1.448,0,0,0,.492-1.237,1.893,1.893,0,0,0-.148-.791,1.4,1.4,0,0,0-.442-.495,2.45,2.45,0,0,0-.64-.247,3.908,3.908,0,0,0-.787-.05H4v3.216H7.05ZM7.2,16.728a4.344,4.344,0,0,0,.836-.1,1.72,1.72,0,0,0,.688-.3,1.76,1.76,0,0,0,.492-.544,2.379,2.379,0,0,0,.2-.89,1.913,1.913,0,0,0-.59-1.534,2.584,2.584,0,0,0-1.574-.445H4v3.81H7.2Zm9.492-.05a2.393,2.393,0,0,0,1.77.594,2.678,2.678,0,0,0,1.426-.4,1.972,1.972,0,0,0,.738-.891h2.41a4.831,4.831,0,0,1-1.77,2.572,5.233,5.233,0,0,1-2.853.792,5.753,5.753,0,0,1-2.115-.4,3.93,3.93,0,0,1-1.574-1.088,3.93,3.93,0,0,1-.983-1.633,5.846,5.846,0,0,1-.345-2.127,5.763,5.763,0,0,1,.345-2.078,5.34,5.34,0,0,1,1.032-1.682,5.014,5.014,0,0,1,1.574-1.088,5.49,5.49,0,0,1,2.066-.4,4.568,4.568,0,0,1,2.213.5,4,4,0,0,1,1.525,1.336,6.01,6.01,0,0,1,.885,1.88,10.47,10.47,0,0,1,.1,2.176H16a2.851,2.851,0,0,0,.689,1.93Zm3.1-5.194a2.123,2.123,0,0,0-1.525-.544,2.34,2.34,0,0,0-1.082.247,2.6,2.6,0,0,0-.688.545,1.322,1.322,0,0,0-.344.692,3.368,3.368,0,0,0-.1.643h4.426A2.632,2.632,0,0,0,19.787,11.484ZM15.459,6.29h5.508V7.626H15.46V6.29Z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a> -->
               <a
                 href="https://www.linkedin.com/company/treegain-technologies-llp"
+                target="_blank"
                 class="mr-3 link-icon"
               >
                 <svg
@@ -760,42 +819,42 @@
                 </svg>
               </a>
               <!-- <a href="" class="mr-3 twitter-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="47"
+              height="47"
+              viewBox="0 0 47 47"
+            >
+              <g id="twitter" transform="translate(16108 -4650)">
+                <rect
+                  id="Rectangle_123"
+                  data-name="Rectangle 123"
                   width="47"
                   height="47"
-                  viewBox="0 0 47 47"
+                  rx="8"
+                  transform="translate(-16108 4650)"
+                  fill="#f7f7f7"
+                />
+                <g
+                  id="twitter-fill"
+                  transform="translate(-16096 4662)"
+                  opacity="0.5"
                 >
-                  <g id="twitter" transform="translate(16108 -4650)">
-                    <rect
-                      id="Rectangle_123"
-                      data-name="Rectangle 123"
-                      width="47"
-                      height="47"
-                      rx="8"
-                      transform="translate(-16108 4650)"
-                      fill="#f7f7f7"
-                    />
-                    <g
-                      id="twitter-fill"
-                      transform="translate(-16096 4662)"
-                      opacity="0.5"
-                    >
-                      <path
-                        id="Path_283"
-                        data-name="Path 283"
-                        d="M0,0H24V24H0Z"
-                        fill="none"
-                      />
-                      <path
-                        id="Path_284"
-                        data-name="Path 284"
-                        d="M22.162,5.656a8.384,8.384,0,0,1-2.4.658A4.2,4.2,0,0,0,21.6,4a8.358,8.358,0,0,1-2.656,1.015,4.182,4.182,0,0,0-7.126,3.814A11.874,11.874,0,0,1,3.2,4.459a4.188,4.188,0,0,0,1.294,5.584A4.168,4.168,0,0,1,2.6,9.52v.052a4.185,4.185,0,0,0,3.354,4.1,4.21,4.21,0,0,1-1.889.072A4.185,4.185,0,0,0,7.97,16.65a8.394,8.394,0,0,1-6.191,1.732,11.83,11.83,0,0,0,6.41,1.88,11.819,11.819,0,0,0,11.9-11.9c0-.18,0-.362-.013-.54a8.5,8.5,0,0,0,2.087-2.165Z"
-                      />
-                    </g>
-                  </g>
-                </svg>
-              </a> -->
+                  <path
+                    id="Path_283"
+                    data-name="Path 283"
+                    d="M0,0H24V24H0Z"
+                    fill="none"
+                  />
+                  <path
+                    id="Path_284"
+                    data-name="Path 284"
+                    d="M22.162,5.656a8.384,8.384,0,0,1-2.4.658A4.2,4.2,0,0,0,21.6,4a8.358,8.358,0,0,1-2.656,1.015,4.182,4.182,0,0,0-7.126,3.814A11.874,11.874,0,0,1,3.2,4.459a4.188,4.188,0,0,0,1.294,5.584A4.168,4.168,0,0,1,2.6,9.52v.052a4.185,4.185,0,0,0,3.354,4.1,4.21,4.21,0,0,1-1.889.072A4.185,4.185,0,0,0,7.97,16.65a8.394,8.394,0,0,1-6.191,1.732,11.83,11.83,0,0,0,6.41,1.88,11.819,11.819,0,0,0,11.9-11.9c0-.18,0-.362-.013-.54a8.5,8.5,0,0,0,2.087-2.165Z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a> -->
             </div>
           </div>
           <!--  -->
@@ -821,13 +880,13 @@
             <div class="footer-column">
               <p class="strong-header">Industries</p>
               <p>
-                <a href="industries/healthcare.html">Healthcare </a>
+                <a href="healthcare.html">Healthcare </a>
               </p>
               <p>
-                <a href="industries/On-Demand.html">On demand apps </a>
+                <a href="automotive.html">Automotive </a>
               </p>
               <p>
-                <a href="industries/Restaurants.html">Restaurant </a>
+                <a href="Restaurants.html">Restaurant </a>
               </p>
               <p>
                 <a href="industries.html">& more </a>
@@ -857,7 +916,7 @@
       <div class="quick-link">
         <div class="container">
           <div class="row">
-            <div class="col-auto mr-auto">
+            <div class="col-md-10 col-12">
               <p class="strong-header">Treegain Technologies &copy; 2020</p>
             </div>
             <div class="col-auto">
@@ -867,22 +926,10 @@
         </div>
       </div>
     </footer>
-    <!-- Footer End -->
+    <!-- footer End -->
 
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-      crossorigin="anonymous"
-    ></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   </body>
 </html>

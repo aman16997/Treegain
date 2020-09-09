@@ -3,19 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fav icon -->
+    <link rel="icon" href="images/icon.svg" type="image/svg" sizes="24x24" />
+    <!-- Fav icon -->
+    <!-- Main css -->
     <link rel="stylesheet" href="css/main.css" />
-    <title>Web Development | Treegain Technologies</title>
+    <!-- Main css -->
+    <title>HealthCare | Treegain Technologies</title>
   </head>
   <body>
     <!-- Hero Section Start -->
-    <section id="website-section">
+    <section id="health-section">
       <!-- Navbar Start -->
       <nav
         class="navbar navbar-expand-lg navbar-light bg-light navbar-transparent"
       >
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="./images/logo.png" alt="Treegain Technologies" />
+            <img
+              src="images/logo.png"
+              alt="Treegain Technologies"
+              class="nav-logo"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -31,10 +40,92 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
               <a class="nav-link" href="index.html">Home</a>
-              <a class="nav-link active" href="services.html">Services</a>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="mobile-development.html"
+                  data-toggle="dropdown"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="mobile-development.html">
+                      Mobile Developement</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="website-development.html">
+                      Web Developement
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="product-development.html">
+                      Product Developement
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="ui-design.html">
+                      UI/UX Design
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link active" href="industries.html">
+                  Industries
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="healthcare.html"
+                      >Healthcare
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="automotive.html"
+                      >Automotive
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="social-media.html"
+                      >Social Media
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Retail.html">Retail </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Restaurants.html"
+                      >Restaurants
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Education.html"
+                      >Education
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Finance.html">Finance </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Entertainment.html"
+                      >Entertainment
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="On-Demand.html"
+                      >On Demand
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
               <a class="nav-link" href="Technologies.html">Technologies</a>
+
               <a class="nav-link" href="career.html">Careers</a>
-              <a class="nav-link" href="resources.html">Resources</a>
+              <!-- <a class="nav-link" href="resources.html">Resources</a> -->
               <a class="nav-link" href="aboutus.html">About</a>
               <button
                 type="button"
@@ -49,345 +140,471 @@
         </div>
       </nav>
       <!-- Navbar End -->
-      <div class="website-content">
+
+      <div class="health-content">
         <div class="container-fluid">
           <div class="container">
-            <div class="row">
-              <div
-                class="col-xl-6 col-lg-6 order-lg-2 col-md-12 col-sm-12 col-12"
+            <div class="center-content">
+              <h3>Healthcare App Development</h3>
+              <p>
+                Get extremely efficient and comprehensive healthcare solutions
+                from top suppliers of Treegain app development services to
+                manage medical information for patients, and optimize staff
+                management at clinics & hospitals, and much more.
+              </p>
+              <button
+                class="orange-button py-3"
+                type="button"
+                class="normal-button"
+                data-toggle="modal"
+                data-target="#exampleModal"
               >
-                <img
-                  src="./images/web-development/web-development-hero.svg"
-                  alt="Treegain Technologies Development"
-                  class="hero-images"
-                />
-              </div>
-              <div
-                class="col-xl-6 col-lg-6 order-lg-1 col-md-12 col-sm-12 col-12"
-              >
-                <div class="hero-text-content">
-                  <div class="OurOrange">
-                    We design Web Projects
-                  </div>
-                  <h2 class="">Web Development Service</h2>
-                  <p class="">
-                    Our renowned web development team helps companies take their
-                    business to the fore with tailor-made web solutions solving
-                    their problems. TreeGain provides a broad array of services,
-                    including custom web application creation, custom website
-                    design, SharePoint outsourcing, Web development of
-                    eCommerce, development of content management systems, and
-                    more.
-                  </p>
-
-                  <button
-                    class="orange-button"
-                    type="button"
-                    data-toggle="modal"
-                    data-target="#exampleModal"
-                  >
-                    Let's Discuss
-                  </button>
-                </div>
-              </div>
+                Request for Proposal
+              </button>
             </div>
+            <img
+              src="../images/healthcare/health-hero-image.jpg"
+              alt=""
+              class="py-3"
+            />
           </div>
         </div>
       </div>
     </section>
     <!-- Hero Section End -->
 
-    <!-- Benefits of Treegrain Start -->
-    <section id="features-section">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="center-heading">
-            <h4 class="">
-              Why Choose Us For Web Development Services?
-            </h4>
-            <!-- <p>
-              We create and maintain a highly available infrastructure in the
-              public cloud. Thanks to automation and CI/CD processes, we help
-              developers deliver high-quality products to our clients faster.
-            </p> -->
-          </div>
-          <!-- Cards  Start -->
-          <div class="row">
-            <!-- 1st Card -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10 mt-4">
-              <div class="feature-card">
-                <img src="images/skill-1.svg" alt="" class="feature-svg" />
-                <div class="card-content">
-                  <h5>State of the art</h5>
-                  <p>
-                    With simplicity and visual appeal, we ensure that we keep up
-                    with the latest trends in front-end creation for catering to
-                    all rising user demands.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 2nd Card -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10 mt-4">
-              <div class="feature-card">
-                <img src="images/skill-1.svg" alt="" class="feature-svg" />
-                <div class="card-content">
-                  <h5>Extensive research</h5>
-                  <p>
-                    Our custom web development services focus on comprehensive
-                    analysis and testing of the available advanced technologies
-                    for developing beautiful and usable custom web apps.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3rd Card -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10 mt-4">
-              <div class="feature-card">
-                <img src="images/skill-1.svg" alt="" class="feature-svg" />
-                <div class="card-content">
-                  <h5>Proven methodology</h5>
-                  <p>
-                    Mostly during the development process of web development, we
-                    combine all the previous steps together to create a custom
-                    website that meets all requirements and needs.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--  -->
-          <div class="row">
-            <!-- 1st Card -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10 mt-4">
-              <div class="feature-card">
-                <img src="images/skill-1.svg" alt="" class="feature-svg" />
-                <div class="card-content">
-                  <h5>Testing</h5>
-                  <p>
-                    We put it through rigorous testing to ensure the highest
-                    output and to make it error-free by removing any potential
-                    bug before we offer any custom web application.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 2nd Card -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10 mt-4">
-              <div class="feature-card">
-                <img src="images/skill-1.svg" alt="" class="feature-svg" />
-                <div class="card-content">
-                  <h5>Trustworthy</h5>
-                  <p>
-                    We view it as our duty as the leading custom web development
-                    company to ensure that the web app runs across several
-                    browsers and can manage challenging data and user loads.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3rd Card -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10 mt-4">
-              <div class="feature-card">
-                <img src="images/skill-1.svg" alt="" class="feature-svg" />
-                <div class="card-content">
-                  <h5>Proven methodology</h5>
-                  <p>
-                    We have a development team that specializes in developing
-                    web applications through a step-by-step process where
-                    development teams test each step to achieve consistency and
-                    excellence. With the help of state art technology we help
-                    you create something beautiful.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--  -->
-        </div>
-      </div>
-    </section>
-    <!-- Benefits of Treegrain End -->
-
-    <!-- Mobile Process Start -->
-    <section id="mobile-process">
+    <section id="health-benefits">
       <div class="container">
-        <div class="">
-          <h3>Check out our web technology stack</h3>
-          In delivering scalable, flawlessly working apps, top-notch technology
-          stack is a must. Here are the web development solutions we rely on to
-          deliver high quality applications.
-        </div>
-        <div class="row mt-2">
-          <!--  -->
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-php.jpg" alt="" />
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-react.jpg" alt="" />
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-node.jpg" alt="" />
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-vue.jpg" alt="" />
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-python.jpg" alt="" />
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-angular.jpg" alt="" />
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-html.jpg" alt="" />
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
-            <img src="./images/web-development/web-css.jpg" alt="" />
-          </div>
-          <!--  -->
-        </div>
-        <!--  -->
-      </div>
-    </section>
-    <!-- Mobile Process End -->
-
-    <!-- Cross Platform Section Start  -->
-    <section id="platform-section">
-      <div class="container-fluid">
-        <div class="container">
-          <h3 class="text-center">
-            What You Are Expecting?
-          </h3>
-
-          <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-              <div class="black-card">
-                <h4>Responsive Web Design</h4>
-                <div class="a-lot-text">
-                  From providing a smooth online portal for your users to
-                  reaching a wider audience, there are a range of advantages to
-                  sensitive websites. At Treegain, we are experienced in
-                  developing responsive websites fitted with beautiful landing
-                  pages and multiple service pages, which are not only
-                  beautifully designed but also help your website rank well in
-                  search results. You will set and achieve your business goals
-                  with the aid of our responsive web design services: increased
-                  traffic, leads, and unlikely conversion of the sales
-                </div>
-                <a href="#" class="pt-4">
-                  <h6 class="mt-5">
-                    Let’s Discuss Your Idea
-                    <img src="./icons/forward-arrow.svg" alt="" />
-                  </h6>
-                </a>
-              </div>
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-              <div class="black-card">
-                <h4>Exception work</h4>
-                <div class="a-lot-text">
-                  Website design & development services provided by us ensure
-                  additional functionality such as optimizing the search engine
-                  and even integrate unique features to help marketers.
-                  <br />
-                  <br />
-                  Our development team combines excellent programming with clean
-                  design to deliver you a masterpiece. Based on the business
-                  needs, we build a web application and provide a customized
-                  plan that is centered on the needs of your end-user.
-                </div>
-                <a href="#" class="pt-5">
-                  <h6 class="mt-5">
-                    Let’s Discuss Your Idea
-                    <img src="./icons/forward-arrow.svg" alt="" />
-                  </h6>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Cross Platform Section End  -->
-
-    <!-- Showcase Project Start -->
-    <section id="showcase-section">
-      <div class="container-fluid">
-        <div class="container">
-          <h3>Some of Our Projects</h3>
+        <div class="center-content">
+          <h3>Unrivaled Healthcare App Development</h3>
+          <p>
+            At Treegain we have teams in the creation of healthcare apps that
+            are experts in developing market strategies according to unique
+            customer needs.
+          </p>
         </div>
         <div class="row">
-          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-            <div class="project-description">
-              <h3 class="">File and Assets Management system</h3>
-              <span class="badge badge-primary OurOrange--background p-2 mt-3">
-                <a href="" class="JustWhite">
-                  Design
-                </a>
-              </span>
-              <span class="badge badge-primary HappyBlue--background p-2 mt-3">
-                <a href="" class="JustWhite">
-                  Developement
-                </a>
-              </span>
-
-              <div class="mt-3">
-                Duis rhoncus dui venenatis consequat porttitor. Etiam aliquet
-                congue consequat. In posuere, nunc sit amet laoreet blandit,
-                urna sapien imperdiet lectus, et molestie sem tortor quis dui.
-                Donec molestie nisi iaculis sodales mollis. Nullam non tellus
-                sed elit pulvinar dignissim ut vel ex. Phasellus at leo sed est
-                egestas posuere eu eget magna. Donec eleifend, nisi ac aliquet
-                tincidunt, quam urna vehicula dui, ac fringilla ipsum ligula id
-                mi. Vestibulum vitae sapien dapibus mi condimentum commodo.
-                Donec turpis dolor, finibus a efficitur ut, blandit non felis.
-              </div>
-              <a href="#" class="pt-4">
-                <h6 class="mt-5">
-                  Let’s Discuss Your Idea
-                  <img src="./icons/forward-arrow-black.svg" alt="" />
-                </h6>
-              </a>
-            </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <img
+              src="../images/mobile-development/mobile-process.svg"
+              alt=""
+              class=""
+            />
           </div>
-          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12 mt-4">
-            <!-- <img src="./images/project-image.jpg" alt=""> -->
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <h5>iOS HealthKit, Google Fit Integration</h5>
+            <p>
+              Many of your customers may want to use multiple app systems to
+              gather & track their medical information. Our experience in custom
+              wearable devices helps you to provide elegant solutions to your
+              consumer.
+            </p>
+
+            <h5>On-Demand Healthcare</h5>
+            <p>
+              Our extensive on-demand experience includes a ready-made software
+              engine, or the capacity to construct a custom solution to the
+              problem you're responding to.
+            </p>
+
+            <h5>Comprehensive</h5>
+            <p>
+              For a healthcare app, there's just so much you can deliver;
+              however, it all comes down to one thing: how robust the
+              application is in terms of consumer demand.
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- Showcase Project End -->
+
+    <section id="app-goal">
+      <div class="container">
+        <div class="center-content">
+          <h3>How do we help with your health care app goal?</h3>
+          <p>
+            If you really want your patients to have quick access to your extra
+            resources, or even if you want to centralize your discharge,
+            registration, and other community and hospital processes, it only
+            fits that you choose us as your partner in the development of
+            healthcare web applications.
+          </p>
+        </div>
+        <div class="row text-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <img
+              src="../images/healthcare/Appointment.svg"
+              alt=""
+              class="illu-image-1"
+            />
+            <h5>For Doctor Appointment Scheduling</h5>
+            <p>
+              Appointment scheduling has been there for a long period of time,
+              but it can be used in many unorthodox ways.Methods can include
+              hospitals automating schedules when detecting irregularities
+              inpatient data, or using push alerts in emergencies.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <img
+              src="../images/healthcare/Medicine-pana.svg"
+              alt=""
+              class="illu-image"
+            />
+            <h5>Mobile-First Physician Platforms</h5>
+            <p>
+              An app and browser-based EHR or ePrescription dashboards are a
+              common thread with any physician having a phone or tablet at hand.
+              For faster patient care and billing, we will create ones that
+              incorporate and improve the current systems.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-5">
+            <img
+              src="../images/healthcare/patient.svg"
+              alt=""
+              class="illu-image-1"
+            />
+            <h5>Hospital Patient Apps</h5>
+            <p>
+              Supporting both urgent & ambulatory treatment is not the only need
+              for a patient-based program in the hospital. From referring
+              doctors to drug monitoring, user-centric frameworks align with
+              your business goals to provide your patients with a highly
+              enhanced experience.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-5">
+            <img
+              src="../images/healthcare/Telemedicine.svg"
+              alt=""
+              class="illu-image"
+            />
+            <h5>Tele Medicine</h5>
+            <p>
+              It’s essential to be directly available to your patients for easy,
+              quality treatment. This requires skills that can be difficult to
+              do without a medivac unless necessary. Telemedicine is a worthy
+              approach to consider, with strong application design, digital
+              technology, and integration with EMR.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="challenges">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+            <h4>
+              How Healthcare app development is helping the people to overcome
+              real challenges in the industry
+            </h4>
+          </div>
+          <div class="col-xl-8 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="challenges-benefits">
+              <img
+                src="../images/healthcare/process.svg"
+                alt=""
+                class="challenges-images"
+              />
+              <h5>Streamline process</h5>
+              <p>
+                The benefits of mobile healthcare apps lets people participate
+                in safe activities during physical activities by sending out
+                regular updates or reminders. Thus by using these apps,
+                consumers have become more and more health-conscious.
+              </p>
+            </div>
+            <div class="challenges-benefits">
+              <img
+                src="../images/healthcare/Engaging.svg"
+                alt=""
+                class="challenges-images"
+              />
+              <h5>Engaging</h5>
+              <p>
+                Mobile applications help patients become more involved with
+                their care as they can access their medical history, plan for
+                appointments, and message their physicians.
+              </p>
+            </div>
+            <div class="challenges-benefits">
+              <img
+                src="../images/healthcare/Data-pana.svg"
+                alt=""
+                class="challenges-images"
+              />
+              <h5>Record keeping</h5>
+              <p>
+                Mobile applications help patients become more involved with
+                their care as they can access their medical history, plan for
+                appointments, and message their physicians.
+              </p>
+            </div>
+            <div class="challenges-benefits">
+              <img
+                src="../images/healthcare/connect.svg"
+                alt=""
+                class="challenges-images"
+              />
+              <h5>Connectivity</h5>
+              <p>
+                Various medical devices can be linked using different platforms
+                such as WiFi, Bluetooth, NFC, and so on, and all of this can be
+                done through the creation of healthcare apps.
+              </p>
+            </div>
+            <div class="challenges-benefits">
+              <img
+                src="../images/healthcare/Spreadsheets-pana.svg"
+                alt=""
+                class="challenges-images"
+              />
+              <h5>Improved tracking</h5>
+              <p>
+                Health apps provide improved pharmacy and medication management
+                by allowing medical personnel to monitor prescription supplies
+                and spend less time looking for medications.
+              </p>
+            </div>
+            <div class="challenges-benefits">
+              <img
+                src="../images/healthcare/innovation.svg"
+                alt=""
+                class="challenges-images"
+              />
+              <h5>Innovative</h5>
+              <p>
+                For several uses, a healthcare app provides efficient solutions
+                such as tracking patient vitalities, analyzing medical
+                facilities, collecting patient data, and automated treatment
+                systems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech-stack">
+      <div class="container">
+        <div class="center-content">
+          <h3>Technology we use</h3>
+          <p>
+            We skillfully use the latest cutting-edge technologies to develop a
+            user-friendly platform to your business with all the integrations
+            you need with the help of our talented team.
+          </p>
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/angular.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/css.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/html.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/node.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/php.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/python.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/react.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
+              <img
+                src="../images/tech-stack/vue.jpg"
+                alt=""
+                class="tech-logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="solution">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h3>
+              Our solutions are redefining the way people access healthcare
+              services
+            </h3>
+            <p>
+              The Healthcare sector has a wide range of internal and external
+              stresses that weigh through doctors, nurses, hospital managers,
+              federal health departments, and insurance providers on its
+              production and effective effectiveness in real-time.
+            </p>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-xl-3 offset-1 col-lg-2 col-md-12 col-sm-12 col-12">
+            <hr />
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h5>HIPAA Complaint apps</h5>
+            <p>
+              The insurance coverage Portability and Transparency Act ( HIPAA)
+              sets the framework for the Safe Health Information (PHI)
+              businesses. It needs them to have security measures in place for
+              the site, network, and operation.
+            </p>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-xl-3 offset-1 col-lg-2 col-md-12 col-sm-12 col-12">
+            <hr />
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h5>Wellness apps</h5>
+            <p>
+              Let's be frank, and apps are also the virtual continuation of our
+              capabilities that help us move easier in life. Not all health
+              applications are designed to be the same, however. There's plenty
+              out there to help you eat healthier, sound your sleep, run faster,
+              and get stronger.
+            </p>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-xl-3 offset-1 col-lg-2 col-md-12 col-sm-12 col-12">
+            <hr />
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h5>Medical Apps</h5>
+            <p>
+              Health applications have made it easier for physicians, nurses,
+              and health care professionals to look at medical records, verify
+              symptoms, and look at medical references. This has made healthcare
+              systems more effective and cheaper.
+            </p>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-xl-3 offset-1 col-lg-2 col-md-12 col-sm-12 col-12">
+            <hr />
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h5>Remote Healthcare</h5>
+            <p>
+              Remote healthcare consists of a collection of remote tracking
+              software and surgical devices that allow patients to connect their
+              health information to providers and keep families, nurses, and
+              clinicians updated on patient wellbeing on a continuous basis.
+            </p>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-xl-3 offset-1 col-lg-2 col-md-12 col-sm-12 col-12">
+            <hr />
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h5>Connectivity</h5>
+            <p>
+              Our medical App is a platform that enables people to access the
+              best medical care/help at their own convenience and venue. A major
+              challenge the urban working class faces in today's personality is
+              the lack of time, and Treegain is the remedy they long sought.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <h3>Frequently asked questions</h3>
+        <div class="row py-5">
+          <div class="col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h5>
+              How to recruit cost-effective development teams for Healthcare
+              apps?
+            </h5>
+            <p>
+              If you’re looking to recruit teams to create healthcare apps and
+              have a budget limit, then it’s best to go to an Indian Healthcare
+              Software Development Company on a mid-scale basis. We are a
+              production company for Indian Healthcare apps with over a year of
+              work providing quality to global clients.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12">
+            <h5>How much does developing a health-care app cost?</h5>
+            <p>
+              The cost of developing an app relies on a few factors such as app
+              size, number of features, platform, etc. We can provide you with
+              ETA if you share your idea.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Project CTA Start -->
     <section id="cta">
-      <div class="container JustWhite p-4">
+      <div class="container">
         <div class="row">
-          <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">
-            <div class="pl-3">
-              <h4 class="JustWhite">Ready To Start Your Project</h4>
-              <p>
-                Duis rhoncus dui venenatis consequat porttitor. Etiam aliquet
-                congue consequat. In posuere, nunc sit amet laoreet blandit,
-                urna sapien imperdiet lectus, et molestie sem tortor quis dui.
-                Do
-              </p>
-              <button
-                type="button"
-                data-toggle="modal"
-                data-target="#exampleModal"
-                class="orange-button"
-              >
-                Let's Discuss
-              </button>
-            </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <!-- <div class="pl-3"> -->
+            <h4 class="JustWhite">Start Building Your App Now!</h4>
+            <p>
+              We recommend custom solutions m and end-to-end mobile device app
+              development for both business and consumer-facing ecosystems. So
+              come on, let's think about your idea and turn it into an awesome
+              product.
+            </p>
+            <button
+              type="button "
+              data-toggle="modal"
+              data-target="#exampleModal"
+              class="orange-button"
+            >
+              Let's Discuss
+            </button>
+            <!-- </div> -->
           </div>
           <div
-            class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 lady-cta d-none d-md-block"
+            class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 lady-cta d-none d-lg-block"
           >
             <img src="./images/CTA-Ilu.svg" alt="" />
           </div>
@@ -397,7 +614,6 @@
     <!-- Project CTA End -->
 
     <!-- Project Modal Start -->
-
     <div
       class="modal fade"
       id="exampleModal"
@@ -407,7 +623,7 @@
     >
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
-          <div class="modal-header DarkBlack--background">
+          <div class="modal-header cta-modal">
             <h5 class="modal-title" id="exampleModalLabel"></h5>
             <button
               type="button"
@@ -418,27 +634,25 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body p-5 DarkBlack--background JustWhite">
+          <div class="modal-body cta-modal">
             <div class="container-fluid">
-              <div class="row">
+              <div class="row cta-content">
                 <div class="col-md-4">
-                  <h4 class="JustWhite">
-                    Let’s Discuss Your Dream Project
-                  </h4>
+                  <h4 class="JustWhite">Let’s Discuss Your Dream Project</h4>
                   <p>
-                    Duis rhoncus dui venenatis consequat porttitor. Etiam
-                    aliquet congue consequat. In posuere, nunc sit amet laoreet
-                    blandit, urna sapien imperdiet lectus, et molestie sem
-                    tortor quis dui. Donec molestie nisi iaculis sodales mollis.
+                    We are just calling away from discussing your dream project,
+                    you just need to fill out this form so we can understand
+                    your requirement and a dedicated team member will contact
+                    you shortly to discuss your requirement in detail.
                   </p>
                   <div class="border-top mb-5 pb-5">
                     <p class="pt-4">
                       <img src="./icons/modal-mail.svg" alt="" />
-                      Email@gmail.com
+                      info@treegain.com
                     </p>
                     <p>
                       <img src="./icons/modal-phone.svg" alt="" />
-                      +91-98111-22233
+                      +91-88600-69793
                     </p>
                   </div>
                   <div class="my-5">
@@ -453,11 +667,8 @@
                     </a>
                   </div>
                 </div>
-                <div
-                  class="col-md-6 pt-2 ml-auto JustWhite--background"
-                  style="border-radius: 4px;"
-                >
-                  <form class="p-4" style="color: black;">
+                <div class="col-md-6 col-12 pt-2 ml-auto cta-form">
+                  <form>
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="firstName">First Name</label>
@@ -531,10 +742,8 @@
                           id="privacy"
                         />
                         <label class="form-check-label" for="privacy">
-                          <strong>
-                            I have read and accept the Terms of Service &
-                            Privacy Policy*
-                          </strong>
+                          I have read and accept the Terms of Service & Privacy
+                          Policy*
                         </label>
                       </div>
                     </div>
@@ -551,90 +760,293 @@
     </div>
     <!-- Project Modal End -->
 
-    <!-- Footer Start -->
+    <!-- footer start -->
     <footer id="footer-section">
       <div class="container">
         <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-            <img src="./images/logo.png" alt="Treegain Technologies" />
-            <div class="mt-3">
-              Treegain delivers award-winning design and development services to
-              some of the biggest companies in the world.
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <img src="images/logo.png" alt="Treegain Technologies" />
+            <p>
+              Treegain is a one-stop solution for all your technical problems,
+              we help our clients beyond professional aspects.
+            </p>
+            <div class="social-icon">
+              <a
+                href="https://www.facebook.com/treegain"
+                class="mr-3 facebook-icon"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="47"
+                  height="47"
+                  viewBox="0 0 47 47"
+                >
+                  <g id="fb" transform="translate(16350 -4650)">
+                    <rect
+                      id="Rectangle_118"
+                      data-name="Rectangle 118"
+                      width="47"
+                      height="47"
+                      rx="8"
+                      transform="translate(-16350 4650)"
+                      fill="#f7f7f7"
+                      class="rectangle"
+                    />
+                    <g
+                      id="facebook-fill"
+                      transform="translate(-16339 4662)"
+                      opacity="0.5"
+                    >
+                      <path
+                        id="Path_287"
+                        data-name="Path 287"
+                        d="M0,0H24V24H0Z"
+                        fill="none"
+                      />
+                      <path
+                        id="Path_288"
+                        data-name="Path 288"
+                        d="M14,13.5h2.5l1-4H14v-2c0-1.03,0-2,2-2h1.5V2.14A28.166,28.166,0,0,0,14.643,2,4.336,4.336,0,0,0,10,6.7V9.5H7v4h3V22h4Z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              <a
+                href="https://dribbble.com/treegaintechnologies"
+                class="mr-3 dribble-icon"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="47"
+                  height="47"
+                  viewBox="0 0 47 47"
+                >
+                  <g id="Dribble" transform="translate(16229 -4650)">
+                    <rect
+                      id="Rectangle_121"
+                      data-name="Rectangle 121"
+                      width="47"
+                      height="47"
+                      rx="8"
+                      transform="translate(-16229 4650)"
+                      fill="#f7f7f7"
+                      class="rectangle"
+                    />
+                    <g
+                      id="dribbble-line"
+                      transform="translate(-16217 4661)"
+                      opacity="0.5"
+                      class="internal-icon"
+                    >
+                      <path
+                        id="Path_279"
+                        data-name="Path 279"
+                        d="M0,0H24V24H0Z"
+                        fill="none"
+                        class="internal-path"
+                      />
+                      <path
+                        id="Path_280"
+                        data-name="Path 280"
+                        d="M19.989,11.572a7.96,7.96,0,0,0-1.573-4.351,9.749,9.749,0,0,1-.92.87,13.157,13.157,0,0,1-3.313,2.01c.167.35.32.689.455,1.009v0q.057.134.11.27a19.194,19.194,0,0,1,4.657.1c.206.028.4.058.584.088ZM10.6,4.122A46.165,46.165,0,0,1,13.3,8.392a11.105,11.105,0,0,0,3.048-1.767,7.88,7.88,0,0,0,.8-.755A7.968,7.968,0,0,0,12,4a8.05,8.05,0,0,0-1.4.121ZM4.253,10q1.022-.026,2.04-.123a31.53,31.53,0,0,0,4.862-.822Q9.9,6.877,8.455,4.825A8.018,8.018,0,0,0,4.253,10Zm1.53,7.038a14.273,14.273,0,0,1,1.575-1.9,12.624,12.624,0,0,1,5.156-3.29l.062-.018c-.165-.364-.32-.689-.476-.995a30.087,30.087,0,0,1-5.7,1.042C5.463,11.96,4.62,12,4,12a7.967,7.967,0,0,0,1.784,5.032Zm9.222,2.38a35.947,35.947,0,0,0-1.632-5.709,12.679,12.679,0,0,0-4.83,3.058,9.77,9.77,0,0,0-1.317,1.655,8.012,8.012,0,0,0,7.779,1Zm1.873-1.075a8,8,0,0,0,2.987-4.87,12.207,12.207,0,0,0-1.245-.236,12.023,12.023,0,0,0-3.18-.033,39.367,39.367,0,0,1,1.438,5.14ZM12,22A10,10,0,1,1,22,12,10,10,0,0,1,12,22Z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              <!-- <a href="" class="mr-3 behance-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="47"
+              height="47"
+              viewBox="0 0 47 47"
+            >
+              <g id="Behance" transform="translate(16169 -4650)">
+                <rect
+                  id="Rectangle_120"
+                  data-name="Rectangle 120"
+                  width="47"
+                  height="47"
+                  rx="8"
+                  transform="translate(-16169 4650)"
+                  fill="#f7f7f7"
+                />
+                <g
+                  id="behance-fill"
+                  transform="translate(-16158 4661)"
+                  opacity="0.5"
+                >
+                  <path
+                    id="Path_281"
+                    data-name="Path 281"
+                    d="M0,0H24V24H0Z"
+                    fill="none"
+                  />
+                  <path
+                    id="Path_282"
+                    data-name="Path 282"
+                    d="M7.443,5.35a6.71,6.71,0,0,1,1.77.2,3.83,3.83,0,0,1,1.377.544,2.277,2.277,0,0,1,.885,1.039,3.946,3.946,0,0,1,.3,1.583,2.773,2.773,0,0,1-.491,1.731A3.559,3.559,0,0,1,9.9,11.583a3.293,3.293,0,0,1,1.868,1.286,3.911,3.911,0,0,1,.64,2.177,3.96,3.96,0,0,1-.394,1.781,3.283,3.283,0,0,1-1.082,1.237,5.078,5.078,0,0,1-1.573.692A7.243,7.243,0,0,1,7.591,19H1V5.35Zm-.394,5.54a2.231,2.231,0,0,0,1.328-.4,1.448,1.448,0,0,0,.492-1.237,1.893,1.893,0,0,0-.148-.791,1.4,1.4,0,0,0-.442-.495,2.45,2.45,0,0,0-.64-.247,3.908,3.908,0,0,0-.787-.05H4v3.216H7.05ZM7.2,16.728a4.344,4.344,0,0,0,.836-.1,1.72,1.72,0,0,0,.688-.3,1.76,1.76,0,0,0,.492-.544,2.379,2.379,0,0,0,.2-.89,1.913,1.913,0,0,0-.59-1.534,2.584,2.584,0,0,0-1.574-.445H4v3.81H7.2Zm9.492-.05a2.393,2.393,0,0,0,1.77.594,2.678,2.678,0,0,0,1.426-.4,1.972,1.972,0,0,0,.738-.891h2.41a4.831,4.831,0,0,1-1.77,2.572,5.233,5.233,0,0,1-2.853.792,5.753,5.753,0,0,1-2.115-.4,3.93,3.93,0,0,1-1.574-1.088,3.93,3.93,0,0,1-.983-1.633,5.846,5.846,0,0,1-.345-2.127,5.763,5.763,0,0,1,.345-2.078,5.34,5.34,0,0,1,1.032-1.682,5.014,5.014,0,0,1,1.574-1.088,5.49,5.49,0,0,1,2.066-.4,4.568,4.568,0,0,1,2.213.5,4,4,0,0,1,1.525,1.336,6.01,6.01,0,0,1,.885,1.88,10.47,10.47,0,0,1,.1,2.176H16a2.851,2.851,0,0,0,.689,1.93Zm3.1-5.194a2.123,2.123,0,0,0-1.525-.544,2.34,2.34,0,0,0-1.082.247,2.6,2.6,0,0,0-.688.545,1.322,1.322,0,0,0-.344.692,3.368,3.368,0,0,0-.1.643h4.426A2.632,2.632,0,0,0,19.787,11.484ZM15.459,6.29h5.508V7.626H15.46V6.29Z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a> -->
+              <a
+                href="https://www.linkedin.com/company/treegain-technologies-llp"
+                target="_blank"
+                class="mr-3 link-icon"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="47"
+                  height="47"
+                  viewBox="0 0 47 47"
+                >
+                  <g id="link" transform="translate(16290 -4650)">
+                    <rect
+                      id="Rectangle_119"
+                      data-name="Rectangle 119"
+                      width="47"
+                      height="47"
+                      rx="8"
+                      transform="translate(-16290 4650)"
+                      fill="#f7f7f7"
+                    />
+                    <g
+                      id="linkedin-fill"
+                      transform="translate(-16279 4661)"
+                      opacity="0.5"
+                    >
+                      <path
+                        id="Path_285"
+                        data-name="Path 285"
+                        d="M0,0H24V24H0Z"
+                        fill="none"
+                      />
+                      <path
+                        id="Path_286"
+                        data-name="Path 286"
+                        d="M6.94,5a2,2,0,1,1-2-2,2,2,0,0,1,2,2ZM7,8.48H3V21H7Zm6.32,0H9.34V21h3.94V14.43c0-3.66,4.77-4,4.77,0V21H22V13.07c0-6.17-7.06-5.94-8.72-2.91Z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              <!-- <a href="" class="mr-3 twitter-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="47"
+              height="47"
+              viewBox="0 0 47 47"
+            >
+              <g id="twitter" transform="translate(16108 -4650)">
+                <rect
+                  id="Rectangle_123"
+                  data-name="Rectangle 123"
+                  width="47"
+                  height="47"
+                  rx="8"
+                  transform="translate(-16108 4650)"
+                  fill="#f7f7f7"
+                />
+                <g
+                  id="twitter-fill"
+                  transform="translate(-16096 4662)"
+                  opacity="0.5"
+                >
+                  <path
+                    id="Path_283"
+                    data-name="Path 283"
+                    d="M0,0H24V24H0Z"
+                    fill="none"
+                  />
+                  <path
+                    id="Path_284"
+                    data-name="Path 284"
+                    d="M22.162,5.656a8.384,8.384,0,0,1-2.4.658A4.2,4.2,0,0,0,21.6,4a8.358,8.358,0,0,1-2.656,1.015,4.182,4.182,0,0,0-7.126,3.814A11.874,11.874,0,0,1,3.2,4.459a4.188,4.188,0,0,0,1.294,5.584A4.168,4.168,0,0,1,2.6,9.52v.052a4.185,4.185,0,0,0,3.354,4.1,4.21,4.21,0,0,1-1.889.072A4.185,4.185,0,0,0,7.97,16.65a8.394,8.394,0,0,1-6.191,1.732,11.83,11.83,0,0,0,6.41,1.88,11.819,11.819,0,0,0,11.9-11.9c0-.18,0-.362-.013-.54a8.5,8.5,0,0,0,2.087-2.165Z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a> -->
             </div>
-            <br />
-            <a href="" class="mr-3">
-              <img src="./icons/fb.svg" alt="Treegain Facebook" />
-            </a>
-            <a href="" class="mr-3">
-              <img src="./icons/Dribble.svg" alt="Treegain Facebook" />
-            </a>
-            <a href="" class="mr-3">
-              <img src="./icons/Behance.svg" alt="Treegain Facebook" />
-            </a>
-            <a href="" class="mr-3">
-              <img src="./icons/link.svg" alt="Treegain Facebook" />
-            </a>
-            <a href="" class="mr-3">
-              <img src="./icons/twitter.svg" alt="Treegain Facebook" />
-            </a>
           </div>
-          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12"></div>
-          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12">
-            <h6>Company</h6>
-            <a href="#" class="mt-2">About Us</a> <br />
-            <a href="#" class="mt-4">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
+          <!--  -->
+          <div class="col-xl-2 col-lg-2 col-md-2 offset-md-2 col-sm-12 col-12">
+            <div class="footer-column">
+              <p class="strong-header">Services</p>
+              <p>
+                <a href="mobile-development.html">Mobile Development</a>
+              </p>
+              <p>
+                <a href="website-development.html">Web Development</a>
+              </p>
+              <p>
+                <a href="ui-design.html">Design</a>
+              </p>
+              <p>
+                <a href="product-development.html">Product Design</a>
+              </p>
+            </div>
           </div>
-          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12">
-            <h6>Company</h6>
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
+          <!--  -->
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+            <div class="footer-column">
+              <p class="strong-header">Industries</p>
+              <p>
+                <a href="healthcare.html">Healthcare </a>
+              </p>
+              <p>
+                <a href="automotive.html">Automotive </a>
+              </p>
+              <p>
+                <a href="Restaurants.html">Restaurant </a>
+              </p>
+              <p>
+                <a href="industries.html">& more </a>
+              </p>
+            </div>
           </div>
-          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12">
-            <h6>Company</h6>
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
-            <a href="#">About Us</a> <br />
+          <!--  -->
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+            <div class="footer-column">
+              <p class="strong-header">Company</p>
+              <p>
+                <a href="aboutus.html">About Us</a>
+              </p>
+              <p>
+                <a href="career.html">Career</a>
+              </p>
+              <p>
+                <a href="how_we_work.html">How we work</a>
+              </p>
+            </div>
           </div>
+          <!--  -->
         </div>
+        <!--  -->
       </div>
 
-      <div class="container-fluid">
+      <div class="quick-link">
         <div class="container">
-          <div class="float-left">
-            Treegrain Technologies 2020
-          </div>
-          <div class="float-right">
-            info@Treegain.com
+          <div class="row">
+            <div class="col-md-10 col-12">
+              <p class="strong-header">Treegain Technologies &copy; 2020</p>
+            </div>
+            <div class="col-auto">
+              <p class="">info@treegain.com</p>
+            </div>
           </div>
         </div>
       </div>
     </footer>
-    <!-- Footer End -->
+    <!-- footer End -->
 
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-      crossorigin="anonymous"
-    ></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   </body>
 </html>
