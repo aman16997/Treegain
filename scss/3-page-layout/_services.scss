@@ -32,11 +32,16 @@
   height: 450px;
   padding-left: 20px;
   margin-top: 20px;
+  color: black;
 
+  a:hover {
+    color: black;
+  }
   p {
     width: 90%;
     font-size: 17px;
     // line-height: 24px;
+    text-decoration: none;
   }
   @media screen and (max-width: 600px) {
     margin-top: 20px;
@@ -44,6 +49,12 @@
 }
 
 .card-service:hover {
+  color: black;
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
   border: 2px solid $HappyBlue;
 }
 
@@ -53,10 +64,18 @@
   height: 450px;
   padding-left: 20px;
   margin-top: 20px;
+  color: black;
 
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
   p {
+    color: black;
+
     width: 90%;
     font-size: 17px;
+    text-decoration: none;
   }
   @media screen and (max-width: 600px) {
     margin-top: 20px;
@@ -65,4 +84,10 @@
 
 .card-service-orange:hover {
   border: 2px solid $OurOrange;
+  color: black;
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
 }
