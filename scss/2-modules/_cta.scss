@@ -46,6 +46,18 @@
   }
 }
 
+.cta-mail {
+  @media only screen and (min-width: 1200px) {
+    width: 30%;
+  }
+  @media only screen and (max-width: 992px) {
+    width: 50%;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 60%;
+  }
+}
+
 .cta-modal {
   background-color: #000;
   //   background-color: DarkBlack--background;
